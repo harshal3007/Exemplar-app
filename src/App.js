@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./Component/Hero";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
+import { Carousel5 } from "./Component/PartnerSlider";
 
 function App() {
   return (
