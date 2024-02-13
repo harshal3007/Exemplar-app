@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./App.css";
 import Home from "./Component/Hero";
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Home />
       <About />
+    <Carousel5/>
       <Footer />
     </div>
   );
