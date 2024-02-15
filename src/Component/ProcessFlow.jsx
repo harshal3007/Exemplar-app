@@ -1,36 +1,10 @@
-const values = [
-  {
-    name: "Initial Consultation",
-    description:
-      "The first thing we do when we create anything is talk to the customer. During this session, we talk about the client’s needs, budget, and timetable, and we figure out what the project entails.",
-  },
-  {
-    name: "Design Concept",
-    description:
-      "Depending on what the customer wants, our interior designers come up with a design idea that encompasses the space’s overall style and look. This covers the layout of the room, the choice of furniture and decorations, the colour scheme, and the lighting design.",
-  },
-  {
-    name: "Design Development",
-    description:
-      "Now that we have a design strategy, our team can start putting it into action. This involves managing the project, working with contractors and vendors, and making sure that furniture, lights, and decorations are set up correctly.",
-  },
-  {
-    name: "Execution",
-    description:
-      "Now that we have a strategy for how the project will be done, our team can start putting it into action. This involves managing the project, working with contractors and vendors, and making sure that furniture, lights, and decorations are put in the right place.",
-  },
-  {
-    name: "Quality Control",
-    description:
-      "Our staff does quality control checks throughout the project to make sure that every part of the design plan is being carried out to the greatest standard.",
-  },
-];
+import processImg from "../Images/Process.webp"
 
 export default function Process() {
   return (
     <div className="bg-white">
       {/* Values section */}
-      <div className="mx-auto mb-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+      <div className="mx-auto mb-32 max-w-7xl sm:mt-40">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Project Process Flow
@@ -41,14 +15,246 @@ export default function Process() {
             your aspirations into an aesthetically pleasing reality
           </p>
         </div>
-        <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {values.map((value) => (
-            <div key={value.name}>
-              <dt className="font-semibold text-gray-900">{value.name}</dt>
-              <dd className="mt-1 text-gray-600">{value.description}</dd>
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
+            <div className="lg:py-6 lg:pr-16">
+              <div className="flex">
+                <div className="flex flex-col items-center mr-4">
+                  <div>
+                    <div className="flex items-center justify-center w-10 h-10 border rounded-full bg-custom">
+                      <svg
+                        className="w-4 text-white"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        viewBox="0 0 24 24"
+                      >
+                        <line
+                          fill="none"
+                          strokeMiterlimit="10"
+                          x1="12"
+                          y1="2"
+                          x2="12"
+                          y2="22"
+                        />
+                        <polyline
+                          fill="none"
+                          strokeMiterlimit="10"
+                          points="19,15 12,22 5,15"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="w-px h-full bg-gray-300" />
+                </div>
+                <div className="pt-1 pb-8">
+                  <p className="mb-2 text-lg font-bold">Initial Consultation</p>
+                  <p className="text-gray-700">
+                    The first thing we do when we create anything is talk to the
+                    customer. During this session, we talk about the client’s
+                    needs, budget, and timetable, and we figure out what the
+                    project entails.
+                  </p>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="flex flex-col items-center mr-4">
+                  <div>
+                    <div className="flex items-center justify-center w-10 h-10 border rounded-full bg-custom">
+                      <svg
+                        className="w-4 text-white"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        viewBox="0 0 24 24"
+                      >
+                        <line
+                          fill="none"
+                          strokeMiterlimit="10"
+                          x1="12"
+                          y1="2"
+                          x2="12"
+                          y2="22"
+                        />
+                        <polyline
+                          fill="none"
+                          strokeMiterlimit="10"
+                          points="19,15 12,22 5,15"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="w-px h-full bg-gray-300" />
+                </div>
+                <div className="pt-1 pb-8">
+                  <p className="mb-2 text-lg font-bold">Design Concept</p>
+                  <p className="text-gray-700">
+                    Depending on what the customer wants, our interior designers
+                    come up with a design idea that encompasses the space’s
+                    overall style and look. This covers the layout of the room,
+                    the choice of furniture and decorations, the colour scheme,
+                    and the lighting design.
+                  </p>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="flex flex-col items-center mr-4">
+                  <div>
+                    <div className="flex items-center justify-center w-10 h-10 border rounded-full bg-custom">
+                      <svg
+                        className="w-4 text-white"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        viewBox="0 0 24 24"
+                      >
+                        <line
+                          fill="none"
+                          strokeMiterlimit="10"
+                          x1="12"
+                          y1="2"
+                          x2="12"
+                          y2="22"
+                        />
+                        <polyline
+                          fill="none"
+                          strokeMiterlimit="10"
+                          points="19,15 12,22 5,15"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="w-px h-full bg-gray-300" />
+                </div>
+                <div className="pt-1 pb-8">
+                  <p className="mb-2 text-lg font-bold">Design Development</p>
+                  <p className="text-gray-700">
+                    Now that we have a design strategy, our team can start
+                    putting it into action. This involves managing the project,
+                    working with contractors and vendors, and making sure that
+                    furniture, lights, and decorations are set up correctly.
+                  </p>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="flex flex-col items-center mr-4">
+                  <div>
+                    <div className="flex items-center justify-center w-10 h-10 border rounded-full bg-custom">
+                      <svg
+                        className="w-4 text-white"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        viewBox="0 0 24 24"
+                      >
+                        <line
+                          fill="none"
+                          strokeMiterlimit="10"
+                          x1="12"
+                          y1="2"
+                          x2="12"
+                          y2="22"
+                        />
+                        <polyline
+                          fill="none"
+                          strokeMiterlimit="10"
+                          points="19,15 12,22 5,15"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="w-px h-full bg-gray-300" />
+                </div>
+                <div className="pt-1 pb-8">
+                  <p className="mb-2 text-lg font-bold">Execution</p>
+                  <p className="text-gray-700">
+                    Now that we have a strategy for how the project will be
+                    done, our team can start putting it into action. This
+                    involves managing the project, working with contractors and
+                    vendors, and making sure that furniture, lights, and
+                    decorations are put in the right place.
+                  </p>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="flex flex-col items-center mr-4">
+                  <div>
+                    <div className="flex items-center justify-center w-10 h-10 border rounded-full bg-custom">
+                      <svg
+                        className="w-4 text-white"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        viewBox="0 0 24 24"
+                      >
+                        <line
+                          fill="none"
+                          strokeMiterlimit="10"
+                          x1="12"
+                          y1="2"
+                          x2="12"
+                          y2="22"
+                        />
+                        <polyline
+                          fill="none"
+                          strokeMiterlimit="10"
+                          points="19,15 12,22 5,15"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="w-px h-full bg-gray-300" />
+                </div>
+                <div className="pt-1 pb-8">
+                  <p className="mb-2 text-lg font-bold">Quality Control</p>
+                  <p className="text-gray-700">
+                    Our staff does quality control checks throughout the project
+                    to make sure that every part of the design plan is being
+                    carried out to the greatest standard.
+                  </p>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="flex flex-col items-center mr-4">
+                  <div>
+                    <div className="flex items-center justify-center w-10 h-10 border rounded-full bg-custom">
+                      <svg
+                        className="w-6 text-white"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <polyline
+                          fill="none"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeMiterlimit="10"
+                          points="6,12 10,16 18,8"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-1">
+                  <p className="mb-2 text-lg font-bold">Success</p>
+                  <p className="text-gray-700" />
+                </div>
+              </div>
             </div>
-          ))}
-        </dl>
+            <div className="relative">
+              <img
+                className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
+                src={processImg}
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
