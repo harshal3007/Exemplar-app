@@ -15,34 +15,33 @@ const About = () => {
   const [stats, setStats] = useState(initialStats);
   const statsRef = useRef(null);
 
-
   useEffect(() => {
     let isMounted = true;
-  
+
     const targetStats = [
       { label: "Years of cumulative experience", value: 50 },
       { label: "Lakhs Square feet executed", value: 5 },
       { label: "We have grown in the last year", value: 700 },
     ];
-  
+
     const animationDuration = 2000;
     const animationInterval = 50;
-  
+
     const animationSteps = targetStats.map((target, index) => {
       const startValue = initialStats[index].value;
       const stepCount = animationDuration / animationInterval;
       const stepValue = (target.value - startValue) / stepCount;
-  
+
       return Array.from({ length: stepCount + 1 }, (_, step) => ({
         ...target,
         value: Math.round(startValue + step * stepValue),
       }));
     });
-  
+
     const handleIntersection = (entries) => {
       if (entries[0].isIntersecting) {
         let step = 0;
-  
+
         const animationIntervalId = setInterval(() => {
           if (isMounted && step < animationSteps[0].length) {
             setStats(animationSteps.map((steps) => steps[step]));
@@ -53,20 +52,18 @@ const About = () => {
         }, animationInterval);
       }
     };
-  
+
     const observer = new IntersectionObserver(handleIntersection, {
       threshold: 0.5,
     });
-  
+
     observer.observe(statsRef.current);
-  
+
     return () => {
       isMounted = false;
       observer.disconnect();
     };
   }, []);
-  
-
 
   return (
     <div className="bg-white mb-16">
@@ -107,7 +104,7 @@ const About = () => {
             aria-hidden="true"
           >
             <div
-              className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+              className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#d65627] to-[#d65627] opacity-30"
               style={{
                 clipPath:
                   "polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)",
@@ -133,15 +130,15 @@ const About = () => {
                   </p>
 
                   <div className="mt-10 flex items-center gap-x-6">
-                  <a
-                    href="#"
-                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                  >
-                   Know more
-                  </a>               
+                    <a
+                      href="#"
+                      className="rounded-md bg-baseorange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white hover:text-baseorange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    >
+                      Know more
+                    </a>
+                  </div>
                 </div>
-                </div>
-                
+
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                   <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                     <div className="relative">
@@ -234,7 +231,7 @@ const About = () => {
                       <dt className="text-base leading-7 text-gray-600">
                         {stat.label}
                       </dt>
-                      <dd className="text-5xl font-semibold tracking-tight text-gray-900">
+                      <dd className="text-5xl font-semibold tracking-tight text-baseorange">
                         {stat.value}{" "}
                         {stat.label === "Years of cumulative experience" && "+"}{" "}
                         {stat.label === "Lakhs Square feet executed" && "+"}
@@ -245,7 +242,6 @@ const About = () => {
                 </dl>
               </div>
             </div>
-            
           </div>
         </div>
       </main>

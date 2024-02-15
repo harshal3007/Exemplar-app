@@ -16,7 +16,6 @@ const navigation = [
 const Home = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
@@ -27,7 +26,7 @@ const Home = () => {
               aria-label="Global"
             >
               <a href="1" className="-m-1.5 p-1.5">
-                <img alt="Your Company" className="h-8 w-auto" src={logo} />
+                <img alt="Your Company" className="h-8 w-35" src={logo} />
               </a>
               <button
                 type="button"
@@ -114,15 +113,16 @@ const Home = () => {
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
                     href="4"
-                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    class="rounded-md bg-baseorange px-3.5 py-2.5 text-sm font-semibold text-white hover:text-baseorange shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bg-baseorange-200"
                   >
                     Learn more
                   </a>
+
                   <a
                     href="5"
                     className="text-sm font-semibold leading-6 text-gray-900"
                   >
-                    Book A Call <span aria-hidden="true">→</span>
+                    Book A Call <span aria-hidden="true" className="text-baseorange">→</span>
                   </a>
                 </div>
               </div>
