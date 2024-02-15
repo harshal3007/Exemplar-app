@@ -1,21 +1,19 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./Component/Hero";
-import About from "./Component/About";
-import Footer from "./Component/Footer";
-import Service from "./Component/Services"
-import Process from "./Component/ProcessFlow";
-import { Carousel5 } from "./Component/PartnerSlider";
+import Homepage from "./Pages/Homepage.jsx";
+import Aboutpage from "./Pages/About.jsx"
+
 
 function App() {
   return (
     <div>
-      <Home />
-      <About />
-      <Carousel5 />
-      <Service />
-      <Process />
-      <Footer />
+      <Router>
+        <Routes>
+        <Route path="/" element={ <Homepage />} />
+        <Route path="/about" element={ <Aboutpage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

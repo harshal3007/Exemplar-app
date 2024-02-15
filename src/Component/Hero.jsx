@@ -6,8 +6,8 @@ import "../Styles/Hero.css";
 import logo from "../Images/exempler-logo.png";
 
 const navigation = [
-  { name: "Home", href: "#" },
-  { name: "About", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
   { name: "Projects", href: "#" },
   { name: "Services", href: "#" },
   { name: "Contact", href: "#" },
