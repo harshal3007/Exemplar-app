@@ -1,30 +1,26 @@
 import React from "react";
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
-import founder1 from "../Images/founder1.jpeg"
-import founder2 from "../Images/founder2.jpeg"
-import founder3 from "../Images/founder3.jpeg"
-
+import founder1 from "../Images/founder1.jpeg";
+import founder2 from "../Images/founder2.jpeg";
+import founder3 from "../Images/founder3.jpeg";
 
 const About = () => {
   const people = [
     {
       name: "Prateek Khare",
       role: "Director",
-      imageUrl:
-        founder1,
+      imageUrl: founder1,
     },
     {
       name: "Leonard Krasner",
       role: "Director",
-      imageUrl:
-      founder3,
+      imageUrl: founder3,
     },
     {
       name: "Deviprasad Kalaikar",
       role: "Director",
-      imageUrl:
-      founder2,
+      imageUrl: founder2,
     },
   ];
 
@@ -41,23 +37,29 @@ const About = () => {
               We at Exemplar, are a group of high end designers and interior
               architects who are constantly upgrading and improving the industry
               design standards in terms of beauty, space optimisation and
-              functionality. We are the world’s first organisation that designs
-              space using multiple psychological researches to optimise the
-              productivity output of the end user. We are the fastest growing
-              interior turnkey solution providers of the country and are
-              dedicated to provide our customers the best service, quality and
-              ensure that the design is given utmost attention to cater to every
-              client and their space needs. It is our constant goal to bridge
-              the gap of the industry, hence our dedicated project management
-              team is focused at maintaining a high level of technical process
-              adherence and ensuring timely delivery. We focus on effective risk
+              functionality.
+            </p>
+            <p className="mt-8 text-lg leading-8 text-gray-600  text-justify">
+              We are the world’s first organisation that designs space using
+              multiple psychological researches to optimise the productivity
+              output of the end user. We are the fastest growing interior
+              turnkey solution providers of the country and are dedicated to
+              provide our customers the best service, quality and ensure that
+              the design is given utmost attention to cater to every client and
+              their space needs. 
+            </p>
+            <p className="mt-8 text-lg leading-8 text-gray-600  text-justify">
+            It is our constant goal to bridge the gap of
+              the industry, hence our dedicated project management team is
+              focused at maintaining a high level of technical process adherence
+              and ensuring timely delivery. We focus on effective risk
               assessments and meticulous reporting on all the projects ensuring
               high quality serviceability and customer experience. We have the
               skills and knowledge to help you reach your design objectives,
               whether you want to change the aesthetic of your home, workplace,
               or a commercial facility. At Exemplar, we are committed to giving
               our clients the best service and creative solutions that go above
-              and beyond what they anticipate. 
+              and beyond what they anticipate.
             </p>
           </div>
         </div>
@@ -72,13 +74,11 @@ const About = () => {
               we do.
             </p>
           </div>
-          <ul
-            className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-          >
+          <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {people.map((person) => (
               <li key={person.name}>
                 <img
-                  className="mx-auto h-56 w-56 rounded-full"
+                  className="mx-auto h-56 w-56 object-cover rounded-full"
                   src={person.imageUrl}
                   alt=""
                 />
