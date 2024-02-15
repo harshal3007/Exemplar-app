@@ -31,6 +31,18 @@ const features = [
       "Whether it’s a residential space, office, retail store, or hospitality establishment, our Design-Build Interiors approach ensures a cohesive and well-executed result.",
     icon: CursorArrowRippleIcon,
   },
+  {
+    name: "Design Build",
+    description:
+      "Whether it’s a residential space, office, retail store, or hospitality establishment, our Design-Build Interiors approach ensures a cohesive and well-executed result.",
+    icon: CursorArrowRippleIcon,
+  },
+  {
+    name: "Design Build",
+    description:
+      "Whether it’s a residential space, office, retail store, or hospitality establishment, our Design-Build Interiors approach ensures a cohesive and well-executed result.",
+    icon: CursorArrowRippleIcon,
+  },
 ];
 
 export default function Features() {

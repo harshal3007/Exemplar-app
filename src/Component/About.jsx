@@ -15,50 +15,58 @@ const About = () => {
   const [stats, setStats] = useState(initialStats);
   const statsRef = useRef(null);
 
-  useEffect(() => {
-    const animationDuration = 2000;
-    const animationInterval = 50;
 
+  useEffect(() => {
+    let isMounted = true;
+  
     const targetStats = [
       { label: "Years of cumulative experience", value: 50 },
       { label: "Lakhs Square feet executed", value: 5 },
       { label: "We have grown in the last year", value: 700 },
     ];
-
+  
+    const animationDuration = 2000;
+    const animationInterval = 50;
+  
     const animationSteps = targetStats.map((target, index) => {
       const startValue = initialStats[index].value;
       const stepCount = animationDuration / animationInterval;
       const stepValue = (target.value - startValue) / stepCount;
-
+  
       return Array.from({ length: stepCount + 1 }, (_, step) => ({
         ...target,
         value: Math.round(startValue + step * stepValue),
       }));
     });
-
-    let step = 0;
-
+  
     const handleIntersection = (entries) => {
       if (entries[0].isIntersecting) {
+        let step = 0;
+  
         const animationIntervalId = setInterval(() => {
-          setStats(animationSteps.map((steps) => steps[step]));
-          step += 1;
-
-          if (step > animationSteps[0].length - 1) {
+          if (isMounted && step < animationSteps[0].length) {
+            setStats(animationSteps.map((steps) => steps[step]));
+            step += 1;
+          } else {
             clearInterval(animationIntervalId);
           }
         }, animationInterval);
       }
     };
-
+  
     const observer = new IntersectionObserver(handleIntersection, {
       threshold: 0.5,
     });
-
+  
     observer.observe(statsRef.current);
-
-    return () => observer.disconnect();
+  
+    return () => {
+      isMounted = false;
+      observer.disconnect();
+    };
   }, []);
+  
+
 
   return (
     <div className="bg-white mb-16">
