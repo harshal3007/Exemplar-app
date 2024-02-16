@@ -131,7 +131,7 @@ const About = () => {
                   <div className="mt-10 flex items-center gap-x-6">
                     <a
                       href="#"
-                      className="rounded-md bg-baseorange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white hover:text-baseorange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                      className="rounded-md bg-baseorange px-3.5 py-2.5 text-sm font-semibold text-white hover:bg-custom"
                     >
                       Know more
                     </a>
