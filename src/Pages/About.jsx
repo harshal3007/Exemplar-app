@@ -13,7 +13,7 @@ const About = () => {
       imageUrl: founder1,
     },
     {
-      name: "Leonard Krasner",
+      name: "Istekhar Shaikh",
       role: "Director",
       imageUrl: founder3,
     },
