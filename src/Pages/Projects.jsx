@@ -125,7 +125,7 @@ const Projects = () => {
               />
             </div>
           </div>
-          <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -175,7 +175,7 @@ const Projects = () => {
               />
             </div>
           </div>
-         <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -225,7 +225,7 @@ const Projects = () => {
               />
             </div>
           </div>
-         <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -275,7 +275,7 @@ const Projects = () => {
               />
             </div>
           </div>
-         <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -325,7 +325,7 @@ const Projects = () => {
               />
             </div>
           </div>
-         <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -375,7 +375,7 @@ const Projects = () => {
               />
             </div>
           </div>
-         <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -425,7 +425,7 @@ const Projects = () => {
               />
             </div>
           </div>
-         <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -475,7 +475,7 @@ const Projects = () => {
               />
             </div>
           </div>
-         <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -525,7 +525,7 @@ const Projects = () => {
               />
             </div>
           </div>
-         <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -575,7 +575,7 @@ const Projects = () => {
               />
             </div>
           </div>
-         <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -625,7 +625,7 @@ const Projects = () => {
               />
             </div>
           </div>
-         <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -675,7 +675,7 @@ const Projects = () => {
               />
             </div>
           </div>
-         <div class="flex w-full md:w-1/2 flex-wrap-reverse">
+          <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
