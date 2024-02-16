@@ -5,7 +5,6 @@ import {
   CursorArrowRippleIcon,
 } from "@heroicons/react/24/outline";
 
-
 const features = [
   {
     name: "Modular Interiors",
@@ -26,9 +25,9 @@ const features = [
     icon: BuildingOfficeIcon,
   },
   {
-    name: "Design Build",
+    name: "Turnkey Solutions",
     description:
-      "Whether it’s a residential space, office, retail store, or hospitality establishment, our Design-Build Interiors approach ensures a cohesive and well-executed result.",
+      "We specialise in providing comprehensive turnkey solutions for office spaces, residential interiors, and F&B (Food & Beverage) spaces.",
     icon: CursorArrowRippleIcon,
   },
   {
@@ -38,9 +37,9 @@ const features = [
     icon: CursorArrowRippleIcon,
   },
   {
-    name: "Design Build",
+    name: "Outsourced Design",
     description:
-      "Whether it’s a residential space, office, retail store, or hospitality establishment, our Design-Build Interiors approach ensures a cohesive and well-executed result.",
+      "Outsource Design as a Service is a comprehensive solution we offer to businesses seeking professional design expertise without the need to maintain an in-house design team",
     icon: CursorArrowRippleIcon,
   },
 ];
@@ -79,10 +78,13 @@ export default function Features() {
                   {feature.description}
                 </dd>
                 <p className="mt-2">
-                    <a href={feature.href} className="text-sm font-semibold leading-6 text-baseorange">
-                      Learn more <span aria-hidden="true">→</span>
-                    </a>
-                  </p>
+                  <a
+                    href={feature.href}
+                    className="text-sm font-semibold leading-6 text-baseorange"
+                  >
+                    Learn more <span aria-hidden="true">→</span>
+                  </a>
+                </p>
               </div>
             ))}
           </dl>
