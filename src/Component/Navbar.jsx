@@ -6,7 +6,7 @@ import logo from "../Images/exempler-logo.png";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Projects", href: "#" },
+  { name: "Projects", href: "/project" },
   { name: "Services", href: "#" },
   { name: "Contact", href: "/contact" },
 ];
