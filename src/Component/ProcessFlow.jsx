@@ -3,8 +3,7 @@ import processImg from "../Images/Process.webp"
 export default function Process() {
   return (
     <div className="bg-white">
-      {/* Values section */}
-      <div className="mx-auto mb-32 max-w-7xl sm:mt-40">
+      <div className="mx-auto mb-32 max-w-7xl px-6 sm:mt-40">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Project Process Flow
@@ -50,7 +49,7 @@ export default function Process() {
                 </div>
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Initial Consultation</p>
-                  <p className="text-gray-700">
+                  <p className="text-gray-700 text-justify">
                     The first thing we do when we create anything is talk to the
                     customer. During this session, we talk about the client’s
                     needs, budget, and timetable, and we figure out what the
@@ -90,7 +89,7 @@ export default function Process() {
                 </div>
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Design Concept</p>
-                  <p className="text-gray-700">
+                  <p className="text-gray-700 text-justify">
                     Depending on what the customer wants, our interior designers
                     come up with a design idea that encompasses the space’s
                     overall style and look. This covers the layout of the room,
@@ -131,7 +130,7 @@ export default function Process() {
                 </div>
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Design Development</p>
-                  <p className="text-gray-700">
+                  <p className="text-gray-700 text-justify">
                     Now that we have a design strategy, our team can start
                     putting it into action. This involves managing the project,
                     working with contractors and vendors, and making sure that
@@ -171,7 +170,7 @@ export default function Process() {
                 </div>
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Execution</p>
-                  <p className="text-gray-700">
+                  <p className="text-gray-700 text-justify">
                     Now that we have a strategy for how the project will be
                     done, our team can start putting it into action. This
                     involves managing the project, working with contractors and
@@ -212,7 +211,7 @@ export default function Process() {
                 </div>
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Quality Control</p>
-                  <p className="text-gray-700">
+                  <p className="text-gray-700 text-justify">
                     Our staff does quality control checks throughout the project
                     to make sure that every part of the design plan is being
                     carried out to the greatest standard.

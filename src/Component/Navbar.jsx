@@ -3,7 +3,6 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../Images/exempler-logo.png";
 
-
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
@@ -22,8 +21,7 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="8" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+          <a href="1" className="-m-1.5 p-1.5">
             <img alt="Your Company" className="h-8 w-35" src={logo} />
           </a>
         </div>
