@@ -26,7 +26,7 @@ const Home = () => {
               aria-label="Global"
             >
               <a href="1" className="-m-1.5 p-1.5">
-                <img alt="Your Company" className="h-8 w-35" src={logo} />
+                <img alt="Your Company" className="h-6 w-35" src={logo} />
               </a>
               <button
                 type="button"

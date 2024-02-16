@@ -35,7 +35,7 @@ export const Carousel5 = () => {
     },
   });
   return (
-    <div className="caraousel5">
+    <div className="caraousel5 px-6">
       <div className="borderOrg"></div>
       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl flex justify-center">
         Few of our Major Clients
