@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import home from "../Images/home-page img.jpg";
 import "../Styles/Hero.css";
 import logo from "../Images/exempler-logo.png";
-
+import { Link } from "react-router-dom";
 const navigation = [
   { name: "About", href: "/about" },
   { name: "Projects", href: "/project" },
@@ -24,9 +24,9 @@ const Home = () => {
               className="flex items-center justify-between lg:justify-start"
               aria-label="Global"
             >
-              <a href="1" className="-m-1.5 p-1.5">
+              <Link to="/" className="-m-1.5 p-1.5">
                 <img alt="Your Company" className="h-6 w-35" src={logo} />
-              </a>
+              </Link>
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700 lg:hidden"
@@ -37,13 +37,13 @@ const Home = () => {
               </button>
               <div className="hidden lg:ml-12 lg:flex lg:gap-x-14">
                 {navigation.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
-                    href={item.href}
+                    to={item.href}
                     className="text-sm font-semibold leading-6 text-gray-900"
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </nav>
@@ -58,9 +58,9 @@ const Home = () => {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="1" className="-m-1.5 p-1.5">
+              <Link to="/" className="-m-1.5 p-1.5">
                 <img className="h-8 w-auto" src={logo} alt="" />
-              </a>
+              </Link>
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -73,13 +73,13 @@ const Home = () => {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
-                      href={item.href}
+                      to={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -110,21 +110,20 @@ const Home = () => {
                   Innovation, and Design Transcends Expectations.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
-                  <a
-
-                    href="/about"
+                  <Link
+                    to="/about"
                     class="rounded-md bg-baseorange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm  hover:bg-custom focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bg-baseorange-200"
-
                   >
                     Learn more
-                  </a>
-
-                  <a
-                    href="5"
+                  </Link>
+                  <div
                     className="text-sm font-semibold leading-6 text-gray-900"
                   >
-                    Book A Call <span aria-hidden="true" className="text-baseorange">→</span>
-                  </a>
+                    Book A Call{" "}
+                    <span aria-hidden="true" className="text-baseorange">
+                      →
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>

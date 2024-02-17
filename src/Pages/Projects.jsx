@@ -80,8 +80,7 @@ const Projects = () => {
   return (
     <div>
       <Navbar />
-
-      <div class="container mx-auto px-5 py-2 lg:px-28 lg:pt-24">
+      <div class="container mx-auto px-8 text-justify py-6 lg:px-24 lg:pt-24">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class=" flex items-center justify-center">
             <div class="items-center gap-12">
@@ -100,7 +99,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-28 lg:pt-14">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-14">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -150,7 +149,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-2">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -200,7 +199,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-2">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -250,7 +249,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-2">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -300,7 +299,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-2">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -350,7 +349,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-28 lg:pt-2">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -400,7 +399,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-2">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -450,7 +449,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-28 lg:pt-2">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -500,7 +499,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-28 lg:pt-2">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -550,7 +549,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-28 lg:pt-2">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -600,7 +599,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-28 lg:pt-2">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -650,7 +649,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-28 lg:pt-2 pb-24">
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2 pb-24">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
