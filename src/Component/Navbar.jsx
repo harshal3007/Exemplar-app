@@ -7,7 +7,7 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Projects", href: "/project" },
-  { name: "Services", href: "#" },
+  { name: "Services", href: "/service" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -15,7 +15,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="bg-white px-20">
       <nav
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"

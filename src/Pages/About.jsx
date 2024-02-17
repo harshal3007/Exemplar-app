@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import founder1 from "../Images/founder1.jpeg";

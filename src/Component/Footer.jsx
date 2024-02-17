@@ -5,7 +5,7 @@ const navigation = {
     { name: "Certifications", href: "/certificates" },
     { name: "Team", href: "/about"  },
     { name: "HSE Policy", href: "/hse" },
-    { name: "Company History", href: "#" },
+    { name: "Why Us", href: "/why-us" },
   ],
   services: [
     { name: "Modular Interiors", href: "#" },

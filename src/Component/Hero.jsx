@@ -8,7 +8,7 @@ import logo from "../Images/exempler-logo.png";
 const navigation = [
   { name: "About", href: "/about" },
   { name: "Projects", href: "/project" },
-  { name: "Services", href: "#" },
+  { name: "Services", href: "/service" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -113,7 +113,7 @@ const Home = () => {
                   <a
 
                     href="/about"
-                    class="rounded-md bg-baseorange px-3.5 py-2.5 text-sm font-semibold text-white hover:text-baseorange shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bg-baseorange-200"
+                    class="rounded-md bg-baseorange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm  hover:bg-custom focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bg-baseorange-200"
 
                   >
                     Learn more

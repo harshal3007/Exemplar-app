@@ -130,7 +130,7 @@ const About = () => {
 
                   <div className="mt-10 flex items-center gap-x-6">
                     <a
-                      href="#"
+                      href="/about"
                       className="rounded-md bg-baseorange px-3.5 py-2.5 text-sm font-semibold text-white hover:bg-custom"
                     >
                       Know more
