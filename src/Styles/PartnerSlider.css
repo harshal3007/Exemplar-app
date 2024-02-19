@@ -1,4 +1,3 @@
-
 .caraousel5{
     width: 100%;  
     margin-top: 7rem;  
@@ -29,3 +28,42 @@ margin-bottom: 4rem;
     aspect-ratio: 3/2;
     mix-blend-mode: color-burn;
 }
+
+@media (min-width: 10px) and (max-width: 576px) {
+    .caraousel5{
+        width: 100%;  
+        margin-top: 7rem;  
+    }
+    .borderOrg{
+        border-top:1px solid #d65627 ;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .caraousel5 div:nth-child(2) {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .caraousel5>h1{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    }
+    
+    .caraousel5 img{
+        width: 80%;
+        height: 5rem;
+        object-fit: contain;
+        aspect-ratio: 3/2;
+        mix-blend-mode: color-burn;
+    }
+    .keen-slider{
+        border: 1px solid red;
+height: fit-content;
+display: flex;
+align-items: center;
+    }
+  }
+  

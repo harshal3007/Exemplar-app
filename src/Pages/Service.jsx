@@ -45,7 +45,7 @@ export default function Service() {
     <>
       <Navbar />
       <div className="bg-white py-24 md:py-32 lg:py-20">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8">
+        <div className="mx-auto grid max-w-full grid-cols-1 gap-x-8 gap-y-20 px-10 lg:px-28">
           <div className="mx-auto lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Professional Services

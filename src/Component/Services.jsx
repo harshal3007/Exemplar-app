@@ -4,6 +4,7 @@ import {
   HomeIcon,
   CursorArrowRippleIcon,
 } from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom";
 
 const features = [
   {
@@ -78,12 +79,12 @@ export default function Features() {
                   {feature.description}
                 </dd>
                 <p className="mt-2">
-                  <a
-                    href={feature.href}
-                    className="text-sm font-semibold leading-6 text-baseorange"
+                  <Link
+                  to="/service"
+                   className="text-sm font-semibold leading-6 text-baseorange"
                   >
                     Learn more <span aria-hidden="true">→</span>
-                  </a>
+                  </Link>
                 </p>
               </div>
             ))}

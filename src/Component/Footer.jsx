@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo2 from "../Images/logo-white-768x175.png.webp";
 
 const navigation = {
@@ -8,10 +9,10 @@ const navigation = {
     { name: "Why Us", href: "/why-us" },
   ],
   services: [
-    { name: "Modular Interiors", href: "#" },
-    { name: "Interior Design", href: "#" },
-    { name: "Full Office Interiors", href: "#" },
-    { name: "Design Build", href: "#" },
+    { name: "Modular Interiors", href: "/service" },
+    { name: "Interior Design", href: "/service" },
+    { name: "Full Office Interiors", href: "/service" },
+    { name: "Design Build", href: "/service" },
   ],
 
   social: [
@@ -71,14 +72,14 @@ export default function Footer() {
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
+                <Link
+                key={item.name}
+                  to={item.href}
                   className="text-gray-500 hover:text-gray-400"
-                >
-                  <span className="sr-only">{item.name}</span>
+                  >
+                    <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
-                </a>
+                </Link>
               ))}
             </div>
           </div>
@@ -91,12 +92,12 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.links.map((item) => (
                     <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
-                      >
-                        {item.name}
-                      </a>
+                      <Link
+                       to={item.href}
+                       className="text-sm leading-6 text-gray-300 hover:text-white"
+                       >
+                         {item.name}
+                       </Link>
                     </li>
                   ))}
                 </ul>
@@ -108,12 +109,12 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.services.map((item) => (
                     <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
-                      >
-                        {item.name}
-                      </a>
+                      <Link
+                       to={item.href}
+                       className="text-sm leading-6 text-gray-300 hover:text-white"
+                       >
+                         {item.name}
+                       </Link>
                     </li>
                   ))}
                 </ul>
