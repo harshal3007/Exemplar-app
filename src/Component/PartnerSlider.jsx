@@ -3,7 +3,6 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import "../Styles/PartnerSlider.css";
 import UA from "../Images/UA.png";
-import DB from "../Images/DB.jpeg";
 import WF from "../Images/WF.png";
 import AS from "../Images/AS.webp";
 import BTS from "../Images/BTS.jpeg";
@@ -11,7 +10,6 @@ import LS from "../Images/LS.webp";
 import MH from "../Images/MH.png";
 import RL from "../Images/RL.webp";
 import SY from "../Images/SY.webp";
-import TCS from "../Images/TCS.webp";
 
 const animation = { duration: 14000, easing: (t) => t };
 
@@ -47,12 +45,7 @@ export const Carousel5 = () => {
         <div className="keen-slider__slide number-slide2">
           <img src={WF} alt="pontaq" />
         </div>
-        <div className="keen-slider__slide number-slide3">
-          <img src={DB} alt="meity" />
-        </div>
-        <div className="keen-slider__slide number-slide4">
-          <img src={TCS} alt="ia" />
-        </div>
+      
         <div className="keen-slider__slide number-slide5">
           <img src={AS} alt="nasscom" />
         </div>

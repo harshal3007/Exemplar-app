@@ -50,8 +50,7 @@ export default function Process() {
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Initial Consultation</p>
                   <p className="text-gray-700 text-justify">
-                    The first thing we do when we create anything is talk to the
-                    customer. During this session, we talk about the client’s
+                  During this session, we talk about the client’s
                     needs, budget, and timetable, and we figure out what the
                     project entails.
                   </p>
@@ -90,9 +89,7 @@ export default function Process() {
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Design Concept</p>
                   <p className="text-gray-700 text-justify">
-                    Depending on what the customer wants, our interior designers
-                    come up with a design idea that encompasses the space’s
-                    overall style and look. This covers the layout of the room,
+                     This covers the layout of the room,
                     the choice of furniture and decorations, the colour scheme,
                     and the lighting design.
                   </p>
@@ -131,8 +128,7 @@ export default function Process() {
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Design Development</p>
                   <p className="text-gray-700 text-justify">
-                    Now that we have a design strategy, our team can start
-                    putting it into action. This involves managing the project,
+                   This involves managing the project,
                     working with contractors and vendors, and making sure that
                     furniture, lights, and decorations are set up correctly.
                   </p>
@@ -171,8 +167,7 @@ export default function Process() {
                 <div className="pt-1 pb-8">
                   <p className="mb-2 text-lg font-bold">Execution</p>
                   <p className="text-gray-700 text-justify">
-                    Now that we have a strategy for how the project will be
-                    done, our team can start putting it into action. This
+                 This
                     involves managing the project, working with contractors and
                     vendors, and making sure that furniture, lights, and
                     decorations are put in the right place.

@@ -8,6 +8,7 @@ module.exports = {
       },
       backgroundColor: {
         'custom': '#d86135ea',
+        'beige' : '#eceada'
       },
     },
   },

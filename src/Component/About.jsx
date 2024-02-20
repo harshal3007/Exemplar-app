@@ -122,10 +122,7 @@ const About = () => {
                     providers of the country and are dedicated to provide our
                     customers the best service, quality and ensure that the
                     design is given utmost attention to cater to every client
-                    and their space needs. It is our constant goal to bridge the
-                    gap of the industry, hence our dedicated project management
-                    team is focused at maintaining a high level of technical
-                    process adherence and ensuring timely delivery.
+                    and their space needs.
                   </p>
 
                   <div className="mt-10 flex items-center gap-x-6">

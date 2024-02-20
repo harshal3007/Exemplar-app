@@ -13,7 +13,7 @@ const Homepage = () => {
       <About />
       <Carousel5 />
       <Service />
-      <Process />
+     
       <Footer />
     </div>
   );
