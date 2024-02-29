@@ -6,6 +6,7 @@ import "../Styles/Hero.css";
 import logo from "../Images/exempler-logo.png";
 import { Link } from "react-router-dom";
 
+
 const navigation = [
   { name: "About", href: "/about" },
   { name: "Projects", href: "/project" },
@@ -143,6 +144,7 @@ const Home = () => {
         </div>
       </div>
 
+      {/* popup  */}
       {setOpen && (
         <Transition.Root show={open} as={Fragment}>
           <Dialog
@@ -163,6 +165,7 @@ const Home = () => {
               <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
             </Transition.Child>
 
+            {/* ///// */}
             <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
               <div className="flex min-h-full items-center justify-center p-4 text-center sm:items-center sm:p-0">
                 <Transition.Child
