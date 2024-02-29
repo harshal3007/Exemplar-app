@@ -8,6 +8,8 @@ module.exports = {
       },
       backgroundColor: {
         'custom': '#d86135ea',
+        'beige' : '#eceada',
+        'dahlia' : '#d8cfd0'
       },
     },
   },

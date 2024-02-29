@@ -3,6 +3,8 @@ import Footer from "../Component/Footer";
 import founder1 from "../Images/founder1.jpeg";
 import founder2 from "../Images/founder2.jpeg";
 import founder3 from "../Images/founder3.jpeg";
+import Aboutsection from "../Component/About";
+
 
 const About = () => {
   const people = [
@@ -26,6 +28,8 @@ const About = () => {
   return (
     <>
       <Navbar />
+
+      <Aboutsection />
       <div className="bg-white py-10">
         <div className="mx-auto max-w-7xl px-16 text-center mb-20 lg:px-8">
           <div className="mx-auto max-w-6xl">

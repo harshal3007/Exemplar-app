@@ -5,7 +5,7 @@ import about3 from "../Images/about3.webp";
 import about4 from "../Images/about 4.webp";
 import about5 from "../Images/about 5.webp";
 
-const About = () => {
+const Aboutsection = () => {
   const initialStats = [
     { label: "Years of cumulative experience", value: 0 },
     { label: "Lakhs Square feet executed", value: 0 },
@@ -122,10 +122,7 @@ const About = () => {
                     providers of the country and are dedicated to provide our
                     customers the best service, quality and ensure that the
                     design is given utmost attention to cater to every client
-                    and their space needs. It is our constant goal to bridge the
-                    gap of the industry, hence our dedicated project management
-                    team is focused at maintaining a high level of technical
-                    process adherence and ensuring timely delivery.
+                    and their space needs.
                   </p>
 
                   <div className="mt-10 flex items-center gap-x-6">
@@ -191,7 +188,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* Content section */}
         <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -248,4 +244,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Aboutsection;

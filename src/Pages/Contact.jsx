@@ -106,7 +106,7 @@ export default function Contact() {
                       className="hover:text-gray-900"
                       href="mailto:hello@example.com"
                     >
-                      team@exemplar.space
+                      mailto:team@exemplar.space
                     </a>
                   </dd>
                 </div>

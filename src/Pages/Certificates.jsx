@@ -7,6 +7,7 @@ import certi4 from "../Images/certi4.png"
 import certi5 from "../Images/certi5.png"
 import certi6 from "../Images/certi6.png"
 import certi7 from "../Images/certi7.png"
+import certi8 from "../Images/certi8.png"
 
 const products = [
   {
@@ -61,6 +62,14 @@ const products = [
     name: "Good Manufacturing practice",
     imageSrc:
     certi7,
+    imageAlt:
+      "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+  },
+  {
+    id: 3,
+    name: "Startup India",
+    imageSrc:
+    certi8,
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
   },

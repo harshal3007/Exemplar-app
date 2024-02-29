@@ -22,10 +22,7 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link
-          to="/"
-          className="-m-1.5 p-1.5"
-          >
+          <Link to="/" className="-m-1.5 p-1.5">
             <img alt="Your Company" className="h-8 w-35" src={logo} />
           </Link>
         </div>
@@ -42,11 +39,11 @@ export default function Navbar() {
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <Link
-            key={item.name}
-            to={item.href}
-            className="text-sm font-semibold leading-6 text-gray-900"
+              key={item.name}
+              to={item.href}
+              className="text-sm font-semibold leading-6 text-gray-900"
             >
-             {item.name}
+              {item.name}
             </Link>
           ))}
         </div>
