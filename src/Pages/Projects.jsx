@@ -72,9 +72,6 @@ import project68 from "../Images/project68.webp";
 import project69 from "../Images/project69.webp";
 import project70 from "../Images/project70.webp";
 import project71 from "../Images/project71.webp";
-import project72 from "../Images/project72.webp";
-import project73 from "../Images/project73.webp";
-import project74 from "../Images/project74.webp";
 
 const Projects = () => {
   return (

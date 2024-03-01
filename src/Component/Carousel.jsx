@@ -50,45 +50,8 @@ function IndividualIntervalsExample() {
 
   return (
     <>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-12 navbar">
-            <a
-              href="index.html"
-              className="logo navbar-brand text-white offset-md-2"
-            >
-              <img className="h-8 w-auto" src={logo} alt="" />
-            </a>
-            <ul className="nav">
-              <li className="nav-item active">
-                <a href="/" className="nav-link">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/about" className="nav-link">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/project" className="nav-link">
-                  Projects
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="4" className="nav-link">
-                  Services
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="4" className="nav-link">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-
-
+      <div className="container-fluid bg-dahlia ">
+        <div className="row h-full flex justify-center items-center">
           <div
             id="carouselExampleIndicators"
             className="carousel slide"
@@ -112,11 +75,11 @@ function IndividualIntervalsExample() {
               ></li>
             </ol>
 
-            <div className="carousel-inner">
+            <div className="carousel-inner rounded-lg">
               <div
-                className={`carousel-item ${activeSlide === 0 ? "active" : ""}`}
+                className={`carousel-item rounded-lg ${activeSlide === 0 ? "active" : ""}`}
               >
-                <div className="info">
+                <div className="info rounded-lg">
                   <video
                     ref={videoRefs[0]}
                     src={video1}
@@ -133,9 +96,9 @@ function IndividualIntervalsExample() {
               </div>
 
               <div
-                className={`carousel-item ${activeSlide === 1 ? "active" : ""}`}
+                className={`carousel-item rounded-lg ${activeSlide === 1 ? "active" : ""}`}
               >
-                <div className="info">
+                <div className="info rounded-lg">
                   <video
                     ref={videoRefs[1]}
                     src={video2}
@@ -152,9 +115,9 @@ function IndividualIntervalsExample() {
               </div>
 
               <div
-                className={`carousel-item ${activeSlide === 2 ? "active" : ""}`}
+                className={`carousel-item rounded-lg ${activeSlide === 2 ? "active" : ""}`}
               >
-                <div className="info">
+                <div className="info rounded-lg">
                   <video
                     ref={videoRefs[2]}
                     src={video3}
