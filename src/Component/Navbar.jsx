@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Projects", href: "/project" },
+  { name: "Projects", href: "/projects" },
   { name: "Services", href: "/service" },
   { name: "Contact", href: "/contact" },
 ];
@@ -16,7 +16,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white px-12">
+    <header className="bg-dahlia px-12">
       <nav
         className="flex items-center justify-between py-6 lg:px-12"
         aria-label="Global"
@@ -41,7 +41,7 @@ export default function Navbar() {
             <Link
               key={item.name}
               to={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-sm font-semibold leading-6 text-gray-900 no-underline"
             >
               {item.name}
             </Link>

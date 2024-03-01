@@ -27,7 +27,7 @@ export default function HSE() {
   return (
     <>
       <Navbar />
-      <div className="bg-white">
+      <div className="bg-dahlia">
         <div aria-hidden="true" className="relative">
           <img
             src="https://images.pexels.com/photos/544965/pexels-photo-544965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -37,9 +37,9 @@ export default function HSE() {
           <div className="absolute inset-0 bg-gradient-to-t from-white" />
         </div>
 
-        <div className="relative mx-auto -mt-12 max-w-7xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
+        <div className="relative mx-auto mt-4 max-w-7xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center lg:max-w-4xl">
-            <h2 className="text-3xl font-bold tracking-tight text-baseorange sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
               Health, Safety, and Environment (HSE) Policy
             </h2>
             <p className="mt-4 text-gray-500">

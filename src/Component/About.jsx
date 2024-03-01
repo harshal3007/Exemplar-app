@@ -66,7 +66,7 @@ const Aboutsection = () => {
   }, []);
 
   return (
-    <div className="bg-white mb-16">
+    <div className="bg-dahlia ">
       <main className="isolate">
         <div className="relative isolate -z-10">
           <svg

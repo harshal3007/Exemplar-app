@@ -50,7 +50,7 @@ function IndividualIntervalsExample() {
 
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid ">
         <div className="row">
           <div className="col-md-12 navbar">
             <a

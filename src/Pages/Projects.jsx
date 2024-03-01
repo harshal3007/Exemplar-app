@@ -78,7 +78,7 @@ import project74 from "../Images/project74.webp";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="bg-dahlia">
       <Navbar />
       <div class="container mx-auto px-8 text-justify py-6 lg:px-24 lg:pt-24">
         <div class="-m-1 flex flex-wrap md:-m-2">
