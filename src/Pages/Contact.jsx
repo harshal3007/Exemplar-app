@@ -86,7 +86,7 @@ export default function Contact() {
                   </dt>
                   <dd>
                     <a
-                      className="hover:text-gray-900"
+                      className="text-gray-900 no-underline"
                       href="tel: +91 9967698647"
                     >
                       +91 9967698647
@@ -103,10 +103,10 @@ export default function Contact() {
                   </dt>
                   <dd>
                     <a
-                      className="hover:text-gray-900"
+                      className="text-gray-900 no-underline"
                       href="mailto:hello@example.com"
                     >
-                      mailto:team@exemplar.space
+                      team@exemplar.space
                     </a>
                   </dd>
                 </div>
