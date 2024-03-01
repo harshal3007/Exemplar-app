@@ -54,41 +54,7 @@ function IndividualIntervalsExample() {
       <div className="container-fluid bg-dahlia ">
         <div className="row h-full flex justify-center items-center">
 
-          <div className="col-md-12 navbar">
-            <a
-              href="index.html"
-              className="logo navbar-brand text-white offset-md-2"
-            >
-              <img className="h-8 w-auto" src={logo} alt="" />
-            </a>
-            <ul className="nav">
-              <li className="nav-item active">
-                <a href="/" className="nav-link">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/about" className="nav-link">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/project" className="nav-link">
-                  Projects
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="4" className="nav-link">
-                  Services
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="4" className="nav-link">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
+     
 
           <div
             id="carouselExampleIndicators"
