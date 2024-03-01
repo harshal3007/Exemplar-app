@@ -89,7 +89,7 @@ export default function Footer() {
                 <h3 className="text-sm font-semibold leading-6 text-baseorange">
                   Quick links
                 </h3>
-                <ul role="list" className="mt-6 space-y-4">
+                <ul role="list" className="mt-6 space-y-4 text-left pl-0">
                   {navigation.links.map((item) => (
                     <li key={item.name}>
                       <Link
@@ -106,7 +106,7 @@ export default function Footer() {
                 <h3 className="text-sm font-semibold leading-6 text-baseorange">
                   Services
                 </h3>
-                <ul role="list" className="mt-6 space-y-4">
+                <ul role="list" className="mt-6 space-y-4 pl-0">
                   {navigation.services.map((item) => (
                     <li key={item.name}>
                       <Link

@@ -128,7 +128,7 @@ const Aboutsection = () => {
                   <div className="mt-10 flex items-center gap-x-6">
                     <a
                       href="/about"
-                      className="rounded-md bg-baseorange px-3.5 py-2.5 text-sm font-semibold text-white hover:bg-custom"
+                      className="rounded-md no-underline bg-baseorange px-3.5 py-2.5 text-sm font-semibold text-white hover:bg-custom"
                     >
                       Know more
                     </a>

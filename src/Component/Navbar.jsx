@@ -22,7 +22,7 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link to="/" className="-m-1.5 p-1.5">
+          <Link to="/" className="-m-1.5 p-1.5 no-underline">
             <img alt="Your Company" className="h-8 w-35" src={logo} />
           </Link>
         </div>
@@ -64,7 +64,7 @@ export default function Navbar() {
             </Link>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 rounded-md p-2.5 text-gray-700 no-underline"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
@@ -78,7 +78,7 @@ export default function Navbar() {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 no-underline hover:bg-gray-50"
                   >
                     {item.name}
                   </Link>
