@@ -10,6 +10,7 @@ import Certificates from "./Pages/Certificates.jsx";
 import HSE from "./Pages/HSE.jsx"
 import Service from "./Pages/Service.jsx";
 import Why from "./Pages/Why.jsx";
+import Projectfolder from "./Pages/Projectfolder.jsx";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/hse" element={ <HSE />} />
         <Route path="/service" element={ <Service/>} />
         <Route path="/why-us" element={ <Why/>} />
+        <Route path="/projects" element={ <Projectfolder/>} />
         </Routes>
       </Router>
     </div>

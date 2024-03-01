@@ -17,7 +17,7 @@ export default function Logos() {
       </h1>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
-          <div className="bg-gray-400/5 p-8 sm:p-10">
+          <div className="bg-gray-400 p-8 sm:p-10">
             <img
               className="max-h-12 w-full object-contain"
               src={trends}
@@ -26,7 +26,7 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400/5 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 sm:p-10">
             <img
               className="max-h-12 w-full object-contain"
               src={reliance}
@@ -35,7 +35,7 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400/5 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 sm:p-10">
             <img
               className="max-h-12 w-full object-contain"
               src={Azorte}
@@ -44,7 +44,7 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400/5 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 sm:p-10">
             <img
               className="max-h-12 w-full object-contain"
               src={eleven}
@@ -53,7 +53,7 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400/5 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 sm:p-10">
             <img
               className="max-h-12 w-full object-contain"
               src={akcapital}
@@ -62,7 +62,7 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400/5 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 sm:p-10">
             <img
               className="max-h-12 w-full object-contain"
               src={bro}
@@ -71,7 +71,7 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400/5 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 sm:p-10">
             <img
               className="max-h-12 w-full object-contain"
               src={livspace}
@@ -80,7 +80,7 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400/5 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 sm:p-10">
             <img
               className="max-h-12 w-full object-contain"
               src={square}
@@ -89,7 +89,7 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400/5 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 sm:p-10">
             <img
               className="max-h-12 w-full object-contain"
               src={catalyst}
