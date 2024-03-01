@@ -50,8 +50,10 @@ function IndividualIntervalsExample() {
 
   return (
     <>
-      <div className="container-fluid ">
-        <div className="row">
+
+      <div className="container-fluid bg-dahlia ">
+        <div className="row h-full flex justify-center items-center">
+
           <div className="col-md-12 navbar">
             <a
               href="index.html"
@@ -88,7 +90,6 @@ function IndividualIntervalsExample() {
             </ul>
           </div>
 
-
           <div
             id="carouselExampleIndicators"
             className="carousel slide"
@@ -112,11 +113,11 @@ function IndividualIntervalsExample() {
               ></li>
             </ol>
 
-            <div className="carousel-inner">
+            <div className="carousel-inner rounded-lg">
               <div
-                className={`carousel-item ${activeSlide === 0 ? "active" : ""}`}
+                className={`carousel-item rounded-lg ${activeSlide === 0 ? "active" : ""}`}
               >
-                <div className="info">
+                <div className="info rounded-lg">
                   <video
                     ref={videoRefs[0]}
                     src={video1}
@@ -133,9 +134,9 @@ function IndividualIntervalsExample() {
               </div>
 
               <div
-                className={`carousel-item ${activeSlide === 1 ? "active" : ""}`}
+                className={`carousel-item rounded-lg ${activeSlide === 1 ? "active" : ""}`}
               >
-                <div className="info">
+                <div className="info rounded-lg">
                   <video
                     ref={videoRefs[1]}
                     src={video2}
@@ -152,9 +153,9 @@ function IndividualIntervalsExample() {
               </div>
 
               <div
-                className={`carousel-item ${activeSlide === 2 ? "active" : ""}`}
+                className={`carousel-item rounded-lg ${activeSlide === 2 ? "active" : ""}`}
               >
-                <div className="info">
+                <div className="info rounded-lg">
                   <video
                     ref={videoRefs[2]}
                     src={video3}

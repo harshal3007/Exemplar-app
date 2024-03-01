@@ -3,7 +3,7 @@ import React from "react";
 // import About from "../Component/About";
 import Footer from "../Component/Footer";
 import Logos from "../Component/Logos";
-// import Navbar from "../Component/Navbar";
+import Navbar from "../Component/Navbar";
 import IndividualIntervalsExample from "../Component/Carousel"
 import Featured from "../Component/Featured";
 // import Service from "../Component/Services";
@@ -14,7 +14,7 @@ const Homepage = () => {
   return (
     <div>
       {/* {/ <Home /> /} */}
-      {/* {/ <Navbar /> /} */}
+       <Navbar />
       <IndividualIntervalsExample/>
       <Featured />
       {/* {/ <About /> /} */}
