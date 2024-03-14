@@ -3,6 +3,7 @@ import Footer from "../Component/Footer";
 import project1 from "../Images/project1.webp";
 import project2 from "../Images/project2.webp";
 import project3 from "../Images/project3.webp";
+import { Link } from "react-router-dom";
 
 
 const posts = [
@@ -58,10 +59,10 @@ export default function Projectfolder() {
                 <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
 
                 <h3 className="mt-3 text-3xl font-semibold leading-6 text-white">
-                  <a href={post.href} className="no-underline text-white">
+                  <Link to={post.href} className="no-underline text-white">
                     <span className="absolute inset-0" />
                     {post.title}
-                  </a>
+                  </Link>
                 </h3>
               </article>
             ))}

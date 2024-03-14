@@ -53,9 +53,6 @@ function IndividualIntervalsExample() {
 
       <div className="container-fluid bg-dahlia ">
         <div className="row h-full flex justify-center items-center">
-
-     
-
           <div
             id="carouselExampleIndicators"
             className="carousel slide"
