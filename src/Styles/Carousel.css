@@ -16,22 +16,7 @@
     background-color: #d8cfd0;
     overflow: hidden; 
   }
-  #carouselExampleIndicators .carousel-inner:before {
-    content: "EXEMPLAR";
-    position: absolute;
-    width: 100%;
-    height: 80vh;
-    border-radius: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    font-size: 3rem;
-    color: aliceblue;
-    font-family: "Times New Roman", Times, serif;
-    background-color: #0000006b;
-}
-
+ 
   #carouselExampleIndicators .carousel-inner .carousel-item {
     position: relative;
     height: 100%;

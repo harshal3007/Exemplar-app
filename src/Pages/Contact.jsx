@@ -71,9 +71,9 @@ export default function Contact() {
                     />
                   </dt>
                   <dd>
-                    2-B Tukaram Park Opposite Akash Ganga
+                  B105, Wework, Chromium, Powai, Mumbai, 400076
                     <br />
-                    Thane West – 400601
+                   
                   </dd>
                 </div>
                 <div className="flex gap-x-4">
@@ -89,7 +89,7 @@ export default function Contact() {
                       className="text-gray-900 no-underline"
                       href="tel: +91 9967698647"
                     >
-                      +91 9967698647
+                     +91 9405653521
                     </a>
                   </dd>
                 </div>

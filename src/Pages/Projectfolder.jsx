@@ -5,29 +5,24 @@ import project2 from "../Images/project2.webp";
 import project3 from "../Images/project3.webp";
 import { Link } from "react-router-dom";
 
-
 const posts = [
   {
     id: 1,
     title: "Residential",
     href: "/project",
-    imageUrl:
-    project1,
-   
+    imageUrl: project1,
   },
   {
     id: 1,
     title: "Commercial",
     href: "/project",
-    imageUrl:
-    project2,
+    imageUrl: project2,
   },
   {
     id: 1,
     title: "Retail",
     href: "/project",
-    imageUrl: 
-    project3,
+    imageUrl: project3,
   },
 ];
 
@@ -38,12 +33,20 @@ export default function Projectfolder() {
 
       <div className="bg-dahlia py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
+          <div className="mx-auto max-w-5xl  text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-             Our Recent Projects
+              Our Recent Projects
             </h2>
-           
+
+            <p class=" text-gray-500 dark:text-gray-300 text-pretty ">
+              Below is a showcase of our most recent interior design triumphs.
+              where every project is a testament to our commitment to
+              innovation, functionality, and aesthetic excellence. Join us on
+              this visual journey and witness the seamless fusion of inspiration
+              and craftsmanship that sets our designs apart."
+            </p>
           </div>
+
           <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (
               <article

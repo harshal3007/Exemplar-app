@@ -118,21 +118,22 @@ const Aboutsection = () => {
                     Creating Spaces, Inspiring Emotions
                   </h1>
                   <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    We are the fastest growing interior turnkey solution
-                    providers of the country and are dedicated to provide our
-                    customers the best service, quality and ensure that the
-                    design is given utmost attention to cater to every client
-                    and their space needs.
+                    Designing spaces inspired by emotions can lead to incredibly
+                    unique and impactful environments. Being the fastest growing
+                    interior turnkey solution provider of the country. We are
+                    dedicated to provide our customers the best service and
+                    quality, clubbed with highly functional bespoke design sets
+                    us up to be the rigth choice for everyone.
                   </p>
 
-                  <div className="mt-10 flex items-center gap-x-6">
+                  {/* <div className="mt-10 flex items-center gap-x-6">
                     <a
                       href="/about"
                       className="rounded-md no-underline bg-baseorange px-3.5 py-2.5 text-sm font-semibold text-white hover:bg-custom"
                     >
                       Know more
                     </a>
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
@@ -196,20 +197,26 @@ const Aboutsection = () => {
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                 <p className="text-xl leading-8 text-gray-600">
-                  Discover the essence of timeless design with Exemplar. Our
-                  seasoned team brings forth a wealth of experience, crafting
-                  spaces that tell a story of innovation and elegance. With a
-                  relentless pursuit of growth, we are not just transforming
-                  spaces; we are shaping the future of interior design, one
-                  project at a time.
+                  Our mission is to seamlessly transform visions into realities,
+                  providing comprehensive solutions that exceed expectations.
+                  Through innovative design, meticulous planning, and flawless
+                  execution, we aim to simplify the process of creating
+                  exceptional spaces. With a commitment to excellence and a
+                  focus on client satisfaction, we strive to be the partner of
+                  choice for individuals and businesses seeking tailored,
+                  turnkey solutions that inspire and endure.
                 </p>
                 <div className="mt-10 max-w-xl text-base leading-7 text-gray-700">
                   <p>
-                    These statistics not only reflect our commitment to
-                    excellence but also showcase our dedication to staying at
-                    the forefront of innovation in the ever-evolving world of
-                    interior design. Trust us to transform your space into a
-                    masterpiece that stands the test of time.
+                    Contrary to the industry exepctation, we have a track record
+                    of completing all projects on time, everytime, with 90% of
+                    our projects being delivered ahead of schedule supports our
+                    claim of meticulous planning and flawless execution.These
+                    statistics not only reflect our commitment to excellence but
+                    also showcases our dedication to staying at the forefront of
+                    innovation in the ever-evolving world of interior design.
+                    Trust us to transform your space into a masterpiece that
+                    stands the test of time.
                   </p>
                 </div>
               </div>

@@ -4,7 +4,7 @@ import founder1 from "../Images/founder1.jpeg";
 import founder2 from "../Images/founder2.jpeg";
 import founder3 from "../Images/founder3.jpeg";
 import Aboutsection from "../Component/About";
-
+import shinchan from "../Images/shinchan.jpeg";
 
 const About = () => {
   const people = [
@@ -22,6 +22,11 @@ const About = () => {
       name: "Deviprasad Kalaikar",
       role: "Director",
       imageUrl: founder2,
+    },
+    {
+      name: "Kajal Himalyan",
+      role: "Receptionist",
+      imageUrl: shinchan,
     },
   ];
 
@@ -49,25 +54,28 @@ const About = () => {
               turnkey solution providers of the country and are dedicated to
               provide our customers the best service, quality and ensure that
               the design is given utmost attention to cater to every client and
-              their space needs. 
+              their space needs.
             </p>
             <p className="mt-8 text-lg leading-8 text-gray-600  text-justify">
-            It is our constant goal to bridge the gap of
-              the industry, hence our dedicated project management team is
-              focused at maintaining a high level of technical process adherence
-              and ensuring timely delivery. We focus on effective risk
-              assessments and meticulous reporting on all the projects ensuring
-              high quality serviceability and customer experience. We have the
-              skills and knowledge to help you reach your design objectives,
-              whether you want to change the aesthetic of your home, workplace,
-              or a commercial facility. At Exemplar, we are committed to giving
-              our clients the best service and creative solutions that go above
-              and beyond what they anticipate.
+              It is our constant goal to bridge the gap of the industry, hence
+              our dedicated project management team is focused at maintaining a
+              high level of technical process adherence and ensuring timely
+              delivery. We focus on effective risk assessments and meticulous
+              reporting on all the projects ensuring high quality serviceability
+              and customer experience. We have the skills and knowledge to help
+              you reach your design objectives, whether you want to change the
+              aesthetic of your home, workplace, or a commercial facility. At
+              Exemplar, we are committed to giving our clients the best service
+              and creative solutions that go above and beyond what they
+              anticipate.hat go above and beyond what they anticipate.
             </p>
           </div>
         </div>
 
-        <div className="mx-auto max-w-7xl px-6 text-center lg:px-8" id="meet-our-team">
+        <div
+          className="mx-auto max-w-7xl px-6 text-center lg:px-8"
+          id="meet-our-team"
+        >
           <div className="mx-auto max-w-2xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Meet our team
@@ -77,7 +85,7 @@ const About = () => {
               we do.
             </p>
           </div>
-          <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
             {people.map((person) => (
               <li key={person.name}>
                 <img

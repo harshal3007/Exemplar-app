@@ -4,7 +4,7 @@ import logo2 from "../Images/logo-white-768x175.png.webp";
 const navigation = {
   links: [
     { name: "Certifications", href: "/certificates" },
-    { name: "Team", href: "/about"  },
+    { name: "Team", href: "/about" },
     { name: "HSE Policy", href: "/hse" },
     { name: "Why Us", href: "/why-us" },
   ],
@@ -56,28 +56,31 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900" aria-labelledby="footer-heading">
+    <footer className="bg-dahlia" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
 
-      
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="space-y-8">
+          <div className="space-y-3">
             <img className="h-7" src={logo2} alt="" />
-            <p className="text-sm leading-6 text-gray-300">
-              Making the world a better place through constructing elegant
-              hierarchies.
+            <p className="text-sm leading-6 text-black">Reach out</p>
+
+            <p className="text-sm leading-6 text-black">
+              B105, Wework, Chromium, Powai, Mumbai, 400076
+            </p>
+            <p className="text-sm leading-6 text-black">
+              team@exemplar.space <br /> +91 9405653521
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
                 <Link
-                key={item.name}
+                  key={item.name}
                   to={item.href}
                   className="text-gray-500 hover:text-gray-400"
-                  >
-                    <span className="sr-only">{item.name}</span>
+                >
+                  <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
                 </Link>
               ))}
@@ -86,35 +89,35 @@ export default function Footer() {
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-baseorange">
+                <h3 className="text-sm font-semibold leading-6 text-black">
                   Quick links
                 </h3>
                 <ul role="list" className="mt-6 space-y-4 text-left pl-0">
                   {navigation.links.map((item) => (
                     <li key={item.name}>
                       <Link
-                       to={item.href}
-                       className="text-sm leading-6 text-gray-300 hover:text-white no-underline"
-                       >
-                         {item.name}
-                       </Link>
+                        to={item.href}
+                        className="text-sm leading-6 text-black hover:text-black no-underline"
+                      >
+                        {item.name}
+                      </Link>
                     </li>
                   ))}
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-baseorange">
+                <h3 className="text-sm font-semibold leading-6 text-black">
                   Services
                 </h3>
                 <ul role="list" className="mt-6 space-y-4 pl-0">
                   {navigation.services.map((item) => (
                     <li key={item.name}>
                       <Link
-                       to={item.href}
-                       className="text-sm leading-6 text-gray-300 hover:text-white no-underline"
-                       >
-                         {item.name}
-                       </Link>
+                        to={item.href}
+                        className="text-sm leading-6 text-black hover:text-black no-underline"
+                      >
+                        {item.name}
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -122,8 +125,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
-
 
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 text-gray-400">
