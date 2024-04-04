@@ -1,7 +1,7 @@
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
-import project1 from "../Images/project1.webp";
-import project2 from "../Images/project2.webp";
+import project1 from "../Images/resi4.jpg";
+import project2 from "../Images/project54.webp";
 import project3 from "../Images/project3.webp";
 import { Link } from "react-router-dom";
 
@@ -9,19 +9,19 @@ const posts = [
   {
     id: 1,
     title: "Residential",
-    href: "/project",
+    href: "/residential",
     imageUrl: project1,
   },
   {
     id: 1,
     title: "Commercial",
-    href: "/project",
+    href: "/commercial",
     imageUrl: project2,
   },
   {
     id: 1,
     title: "Retail",
-    href: "/project",
+    href: "/retail",
     imageUrl: project3,
   },
 ];
