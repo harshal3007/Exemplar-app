@@ -5,12 +5,56 @@ import {
 } from "@heroicons/react/24/outline";
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
+import emailjs from "@emailjs/browser";
+import { useState } from "react";
 
 export default function Contact() {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [number, setNumber] = useState("");
+  const [message, setMessage] = useState("");
+  const [company, setCompany] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const serviceld = "service_d383x1s";
+    const templateid = "template_u2tafel";
+    const publickey = "5_P9r-YKCs7CBWHy2";
+
+    const templateParams = {
+      first_name: firstName,
+      last_name: lastName,
+      email: email,
+      phone_number: number,
+      to_name: "Exemplar Space",
+      company:company,
+      message: message,
+    };
+
+    emailjs
+      .send(serviceld, templateid, templateParams, publickey)
+
+      .then((response) => {
+        console.log("Email sent successfully!", response);
+        setFirstName("");
+        setEmail("");
+        setMessage("");
+        setLastName("");
+        setNumber("");
+        setCompany("");
+      })
+
+      .catch((error) => {
+        console.error("Error sending email:", error);
+      });
+  };
+
   return (
     <>
       <Navbar />
-      <div className="relative isolate bg-bronze ">
+      <div className="relative isolate bg-bronze">
         <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
           <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
@@ -56,9 +100,9 @@ export default function Contact() {
                 Get in touch
               </h2>
               <p className="mt-6 text-lg leading-8 text-white">
-                Feel free to contact our team using the form or connect
-                with us through the provided email and phone number. We strive
-                to respond promptly and look forward to assisting you with any
+                Feel free to contact our team using the form or connect with us
+                through the provided email and phone number. We strive to
+                respond promptly and look forward to assisting you with any
                 questions, concerns, or collaboration opportunities.
               </p>
               <dl className="mt-10 space-y-4 text-base leading-7 text-white">
@@ -117,6 +161,7 @@ export default function Contact() {
             action="#"
             method="POST"
             className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
+            onSubmit={handleSubmit}
           >
             <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
@@ -129,6 +174,8 @@ export default function Contact() {
                   </label>
                   <div className="mt-2.5">
                     <input
+                      value={firstName}
+                      onChange={(e) => setFirstName(e.target.value)}
                       type="text"
                       name="first-name"
                       id="first-name"
@@ -146,6 +193,8 @@ export default function Contact() {
                   </label>
                   <div className="mt-2.5">
                     <input
+                      value={lastName}
+                      onChange={(e) => setLastName(e.target.value)}
                       type="text"
                       name="last-name"
                       id="last-name"
@@ -163,6 +212,8 @@ export default function Contact() {
                   </label>
                   <div className="mt-2.5">
                     <input
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       type="email"
                       name="email"
                       id="email"
@@ -181,10 +232,30 @@ export default function Contact() {
                   <div className="mt-2.5">
                     <input
                       type="tel"
+                      value={number}
+                      onChange={(e) => setNumber(e.target.value)}
                       name="phone-number"
                       id="phone-number"
                       autoComplete="tel"
-                      className="block w-full rounded-md border-0 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
+                      className="block w-full rounded-md border-0 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    />
+                  </div>
+                </div>
+                <div className="sm:col-span-2">
+                  <label
+                    htmlFor="phone-number"
+                    className="block text-sm font-semibold leading-6 text-white"
+                  >
+                    Company Name
+                  </label>
+                  <div className="mt-2.5">
+                    <input
+                      value={company}
+                      onChange={(e) => setCompany(e.target.value)}
+                      name="company"
+                      id="company"
+                     
+                      className="block w-full rounded-md border-0 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -197,6 +268,8 @@ export default function Contact() {
                   </label>
                   <div className="mt-2.5">
                     <textarea
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
                       name="message"
                       id="message"
                       rows={4}

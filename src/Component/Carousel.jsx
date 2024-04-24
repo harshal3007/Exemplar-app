@@ -19,8 +19,7 @@ function IndividualIntervalsExample() {
     });
   }, [activeSlide]);
 
-  const handleSlideChange = (index, event) => {
-    event.preventDefault();
+  const handleSlideChange = (index) => {
     let newIndex = index;
     if (newIndex >= videoRefs.length) {
       newIndex = 0;

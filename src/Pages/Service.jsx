@@ -45,7 +45,7 @@ export default function Service() {
     <>
       <Navbar />
       <div className="bg-bronze  py-24 md:py-32 lg:py-20">
-        <div className="mx-auto grid max-w-full grid-cols-1 gap-x-8 gap-y-20 px-10 lg:px-28">
+        <div className="mx-auto grid max-w-full grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-28">
           <div className="mx-auto lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Professional Services
@@ -60,7 +60,7 @@ export default function Service() {
               requirement and budget.
             </p>
           </div>
-          <ul className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-8 xl:col-span-2">
+          <ul className="mx-auto grid max-w-2xl grid-cols-1 gap-x-2 gap-y-20 sm:grid-cols-2 lg:mx-0 sm:mx-0 px-0 lg:max-w-none lg:gap-x-8 xl:col-span-2">
             {people.map((person) => (
               <li key={person.name}>
                 <img

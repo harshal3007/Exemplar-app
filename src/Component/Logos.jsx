@@ -11,11 +11,11 @@ import catalyst from "../Images/catalyst.png"
 
 export default function Logos() {
   return (
-    <div className="bg-bronze  py-34 sm:py-32">
+    <div className="bg-bronze  py-34 sm:py-32 px-4">
       {/* <h1 className="text-4xl font-bold tracking-tight mb-8 text-gray-900 sm:text-4xl flex justify-center">
         Few of our Major Clients
       </h1> */}
-      <div className="mx-auto max-w-5xl px-6 lg:px-8">
+      <div className="mx-auto max-w-5xl px-6 lg:px-8 ">
         <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-md md:grid-cols-3">
           <div className="bg-gray-400 p-8 sm:p-10">
             <img
