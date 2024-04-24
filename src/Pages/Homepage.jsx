@@ -4,6 +4,7 @@ import Logos from "../Component/Logos";
 import Navbar from "../Component/Navbar";
 import IndividualIntervalsExample from "../Component/Carousel"
 import Featured from "../Component/Featured";
+import Awards from "../Component/Awards";
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
        <Navbar />
       <IndividualIntervalsExample/>
       <Featured />
+      <Awards />
       <Logos />
       <Footer />
     </div>

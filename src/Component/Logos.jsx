@@ -16,13 +16,13 @@ import bts from "../Images/bts.png"
 
 export default function Logos() {
   return (
-    <div className="bg-bronze  py-34 sm:py-32 px-4">
+    <div className="bg-bronze py-34 sm:py-32 px-4">
       
-      <div className="mx-auto max-w-5xl px-6 lg:px-8 ">
-        <div className="-mx-6 grid grid-cols-2 gap-0 overflow-hidden sm:mx-0 sm:rounded-md md:grid-cols-3">
-          <div className="bg-gray-400 p-8 sm:p-10">
+      <div className="mx-auto max-w-4xl">
+        <div className="-mx-6 grid grid-cols-2 gap-0 overflow-hidden sm:mx-0 sm:rounded-md md:grid-cols-3 ">
+          <div className="bg-gray-400 p-8  flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 mix-blend-color-burn aspect-auto object-contain"
              
               src={catalyst}
               alt="Transistor"
@@ -30,9 +30,9 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-8 sm:p-10">
+          <div className="bg-gray-400 p-8 flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6  aspect-auto object-contain"
              
               src={blushlace}
               alt="Transistor"
@@ -40,18 +40,18 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6  flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 mix-blend-color-burn aspect-auto object-contain"
               src={arrivae}
               alt="Reform"
               width={158}
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 aspect-auto object-contain"
            
               src={bro}
               alt="Tuple"
@@ -59,9 +59,9 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 aspect-auto mix-blend-color-burn object-contain"
            
               src={relianceretail}
               alt="Tuple"
@@ -69,91 +69,90 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 aspect-auto object-contain"
               src={eleven}
               alt="Laravel"
               width={158}
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-4 sm:p-10">
+          <div className="bg-gray-400 p-4 flex justify-center sm:p-10">
             <img
-              className="max-h-16 w-full object-contain"
-              // src={akcapital}
+              className="max-h-16 w-3/6 aspect-auto object-contain"
               src={reliance}
               alt="SavvyCal"
               width={158}
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 mix-blend-color-burn  aspect-auto object-contain"
               src={square}
               alt="Statamic"
               width={158}
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 mix-blend-color-burn aspect-auto object-contain"
                 src={akcapital}
               alt="Statamic"
               width={158}
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 aspect-auto object-contain"
               src={trends}
               alt="Statamic"
               width={158}
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 mix-blend-color-burn aspect-auto object-contain"
                src={livspace}
               alt="Statamic"
               width={158}
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-10 flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 aspect-auto object-contain"
               src={Azorte}
               alt="Statamic"
               width={158}
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-10  sm:p-10">
+          <div className="bg-gray-400 p-10 flex justify-center  sm:p-10">
             <img
-              className="max-h-20 w-full object-contain"
+              className="max-h-20 w-3/6  mix-blend-color-burn aspect-auto object-contain"
               src={bts} 
               alt="Statamic"
               width={158}
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 mix-blend-color-burn aspect-auto object-contain"
               src={Muez}
               alt="Statamic"
               width={158}
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-6 flex justify-center sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
+              className="max-h-12 w-3/6 mix-blend-color-burn aspect-auto object-contain"
               src={aditya}
               alt="Statamic"
               width={158}
