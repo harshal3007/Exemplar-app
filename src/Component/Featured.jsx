@@ -9,7 +9,7 @@ const products = [
     imageSrc: product3,
     imageAlt: "product-1",
     imageDiscription:
-      "A 10,000 square feet area space designed & executed in a record time of Mumbai. Designed for comfort with a smooth transition & demarcation between leaders & executives along with recreation & pantry areas while ensuring luxury.",
+      "A 10,000 sqft area space designed & executed in a record time of Mumbai. Designed for comfort with a smooth transition & demarcation between leaders & executives along with recreation & pantry areas while ensuring luxury.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const products = [
     imageSrc: product1,
     imageAlt: "product-2",
     imageDiscription:
-      "This Dynamic space has been designed and executed by Exemplar in One BKC, Mumbai.",
+      "Gracefully executed a 1500 sqft co-working space in the marquee of Mumbai ONE BKC to build a space accomodating a whooping 350 seats while a spacious & elegant ambience makes for a perfectly collaborative office gheto.",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const products = [
     imageSrc: product2,
     imageAlt: "product-3",
     imageDiscription:
-      "Exemplar has breathed new life into this 7BHK flat in Mumbai and transformed this living space into havens of comfort & stayle.",
+      "A 7BHK penthouse designed & executed within two months to accomodate a minimilistic & elegant house for a family of dynamic inidividuals.",
   },
 ];
 

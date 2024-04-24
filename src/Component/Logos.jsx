@@ -12,6 +12,7 @@ import relianceretail from "../Images/relianeretail.png"
 import Muez from "../Images/muex.png"
 import aditya from "../Images/aditya.jpeg"
 import arrivae from "../Images/download.jpeg"
+import bts from "../Images/bts.png"
 
 export default function Logos() {
   return (
@@ -132,10 +133,10 @@ export default function Logos() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400 p-6 sm:p-10">
+          <div className="bg-gray-400 p-10  sm:p-10">
             <img
-              className="max-h-12 w-full object-contain"
-              src={Azorte}
+              className="max-h-20 w-full object-contain"
+              src={bts} 
               alt="Statamic"
               width={158}
               height={48}
