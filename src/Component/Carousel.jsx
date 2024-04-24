@@ -19,7 +19,8 @@ function IndividualIntervalsExample() {
     });
   }, [activeSlide]);
 
-  const handleSlideChange = (index) => {
+  const handleSlideChange = (index, event) => {
+    event.preventDefault();
     let newIndex = index;
     if (newIndex >= videoRefs.length) {
       newIndex = 0;
@@ -59,22 +60,24 @@ function IndividualIntervalsExample() {
           >
             <ol className="carousel-indicators custom-indicators">
               <li
-                onClick={() => handleSlideChange(0)}
+                onClick={(event) => handleSlideChange(0, event)}
                 className={activeSlide === 0 ? "active" : ""}
               ></li>
               <li
-                onClick={() => handleSlideChange(1)}
+                onClick={(event) => handleSlideChange(1, event)}
                 className={activeSlide === 1 ? "active" : ""}
               ></li>
               <li
-                onClick={() => handleSlideChange(2)}
+                onClick={(event) => handleSlideChange(2, event)}
                 className={activeSlide === 2 ? "active" : ""}
               ></li>
             </ol>
 
             <div className="carousel-inner rounded-lg">
               <div
-                className={`carousel-item rounded-lg ${activeSlide === 0 ? "active" : ""}`}
+                className={`carousel-item rounded-lg ${
+                  activeSlide === 0 ? "active" : ""
+                }`}
               >
                 <div className="info rounded-lg">
                   <video
@@ -93,7 +96,9 @@ function IndividualIntervalsExample() {
               </div>
 
               <div
-                className={`carousel-item rounded-lg ${activeSlide === 1 ? "active" : ""}`}
+                className={`carousel-item rounded-lg ${
+                  activeSlide === 1 ? "active" : ""
+                }`}
               >
                 <div className="info rounded-lg">
                   <video
@@ -112,7 +117,9 @@ function IndividualIntervalsExample() {
               </div>
 
               <div
-                className={`carousel-item rounded-lg ${activeSlide === 2 ? "active" : ""}`}
+                className={`carousel-item rounded-lg ${
+                  activeSlide === 2 ? "active" : ""
+                }`}
               >
                 <div className="info rounded-lg">
                   <video
@@ -124,7 +131,7 @@ function IndividualIntervalsExample() {
                     controls={false}
                     controlsList="nodownload"
                     muted
-                     onEnded={handleVideoEnd}
+                    onEnded={handleVideoEnd}
                     onClick={handleVideoClick}
                   ></video>
                 </div>
@@ -136,7 +143,7 @@ function IndividualIntervalsExample() {
               href="#carouselExampleIndicators"
               role="button"
               data-slide="prev"
-              onClick={() => handleSlideChange(activeSlide - 1)}
+              onClick={(event) => handleSlideChange(activeSlide - 1, event)}
             >
               <span
                 className="carousel-control-prev-icon"
@@ -149,7 +156,7 @@ function IndividualIntervalsExample() {
               href="#carouselExampleIndicators"
               role="button"
               data-slide="next"
-              onClick={() => handleSlideChange(activeSlide + 1)}
+              onClick={(event) => handleSlideChange(activeSlide + 1, event)}
             >
               <span
                 className="carousel-control-next-icon"
