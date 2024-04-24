@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import logo from "../Images/exempler-logo.png";
+// import logo from "../Images/exempler-logo.png";
 import { Link } from "react-router-dom";
+import logo from "../Images/logo-white-768x175.png.webp";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -16,7 +17,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-dahlia px-12">
+    <header className="bg-bronze  px-12">
       <nav
         className="flex items-center justify-between py-6 lg:px-12"
         aria-label="Global"
@@ -29,7 +30,7 @@ export default function Navbar() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -41,7 +42,7 @@ export default function Navbar() {
             <Link
               key={item.name}
               to={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900 no-underline"
+              className="text-sm font-semibold leading-6 text-white no-underline"
             >
               {item.name}
             </Link>

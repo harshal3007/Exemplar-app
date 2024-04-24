@@ -4,7 +4,8 @@ import founder1 from "../Images/founder1.jpeg";
 import founder2 from "../Images/founder2.jpeg";
 import founder3 from "../Images/founder3.jpeg";
 import Aboutsection from "../Component/About";
-import shinchan from "../Images/shinchan.jpeg";
+import kajal from "../Images/IMG_4915.jpeg"
+
 
 const About = () => {
   const people = [
@@ -25,8 +26,8 @@ const About = () => {
     },
     {
       name: "Kajal Himalyan",
-      role: "Receptionist",
-      imageUrl: shinchan,
+      role: "Deputy General Manager",
+      imageUrl: kajal,
     },
   ];
 
@@ -35,19 +36,19 @@ const About = () => {
       <Navbar />
 
       <Aboutsection />
-      <div className="bg-dahlia py-10">
+      <div className="bg-bronze py-10">
         <div className="mx-auto max-w-7xl px-16 text-center mb-20 lg:px-8">
           <div className="mx-auto max-w-6xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               About Us
             </h2>
-            <p className="mt-12 text-lg leading-8 text-gray-600  text-justify">
+            <p className="mt-12 text-lg leading-8 text-white  text-justify">
               We at Exemplar, are a group of high end designers and interior
               architects who are constantly upgrading and improving the industry
               design standards in terms of beauty, space optimisation and
               functionality.
             </p>
-            <p className="mt-8 text-lg leading-8 text-gray-600  text-justify">
+            <p className="mt-8 text-lg leading-8 text-white  text-justify">
               We are the world’s first organisation that designs space using
               multiple psychological researches to optimise the productivity
               output of the end user. We are the fastest growing interior
@@ -56,7 +57,7 @@ const About = () => {
               the design is given utmost attention to cater to every client and
               their space needs.
             </p>
-            <p className="mt-8 text-lg leading-8 text-gray-600  text-justify">
+            <p className="mt-8 text-lg leading-8 text-white  text-justify">
               It is our constant goal to bridge the gap of the industry, hence
               our dedicated project management team is focused at maintaining a
               high level of technical process adherence and ensuring timely
@@ -77,10 +78,10 @@ const About = () => {
           id="meet-our-team"
         >
           <div className="mx-auto max-w-2xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Meet our team
             </h2>
-            <p className="mt-4 text-lg leading-8 text-gray-600">
+            <p className="mt-4 text-lg leading-8 text-white">
               We’re a dynamic group of individuals who are passionate about what
               we do.
             </p>
@@ -93,10 +94,10 @@ const About = () => {
                   src={person.imageUrl}
                   alt=""
                 />
-                <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">
+                <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">
                   {person.name}
                 </h3>
-                <p className="text-sm leading-6 text-gray-600">{person.role}</p>
+                <p className="text-sm leading-6 text-white">{person.role}</p>
                 <ul className="mt-6 flex justify-center gap-x-6">
                   <li>
                     <a
@@ -117,7 +118,7 @@ const About = () => {
                   <li>
                     <a
                       href={person.linkedinUrl}
-                      className="text-gray-400 hover:text-gray-500"
+                      className="text-white hover:text-gray-500"
                     >
                       <span className="sr-only">LinkedIn</span>
                       <svg

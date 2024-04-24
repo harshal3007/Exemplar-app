@@ -44,13 +44,13 @@ export default function Service() {
   return (
     <>
       <Navbar />
-      <div className="bg-dahlia py-24 md:py-32 lg:py-20">
+      <div className="bg-bronze  py-24 md:py-32 lg:py-20">
         <div className="mx-auto grid max-w-full grid-cols-1 gap-x-8 gap-y-20 px-10 lg:px-28">
           <div className="mx-auto lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Professional Services
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-white">
               Exemplar is proud to provide a one-stop shop for anything to do
               with interiors, including modular solutions. As one of the fastest
               growing turnkey interior fit-out solutions provider, we know how
@@ -68,13 +68,13 @@ export default function Service() {
                   src={person.imageUrl}
                   alt=""
                 />
-                <h3 className="mt-6 text-lg font-semibold leading-8 text-gray-900">
+                <h3 className="mt-6 text-lg font-semibold leading-8 text-white">
                   {person.name}
                 </h3>
-                <p className="text-base leading-7 text-gray-600">
+                <p className="text-base leading-7 text-white">
                   {person.role}
                 </p>
-                <p className="mt-4 text-base leading-7 text-gray-600 text-justify">
+                <p className="mt-4 text-base leading-7 text-white text-justify">
                   {person.bio}
                 </p>
               </li>

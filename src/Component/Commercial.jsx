@@ -45,13 +45,13 @@ import project71 from "../Images/project71.webp";
 
 const Commercial = () => {
   return (
-    <div className="bg-dahlia">
+    <div className="bg-bronze">
       <Navbar />
       <div class="container mx-auto px-8 text-justify py-6 lg:px-24 lg:pt-24">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class=" flex items-center justify-center">
             <div class="items-center gap-12">
-              <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white mb-6 ml-10">
+              <h2 class="text-2xl font-bold text-white lg:text-3xl dark:text-white mb-6 ml-10">
                 Commercial Projects
               </h2>
 

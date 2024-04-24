@@ -13,6 +13,7 @@ import Why from "./Pages/Why.jsx";
 import Projectfolder from "./Pages/Projectfolder.jsx";
 import Residential from "./Component/Residential.jsx";
 import Commercial from "./Component/Commercial.jsx";
+import Retail from "./Component/Retail.jsx";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/service" element={ <Service/>} />
         <Route path="/why-us" element={ <Why/>} />
         <Route path="/residential" element={ <Residential/> } />
+        <Route path="/retail" element={ <Retail/> } />
         <Route path="/commercial" element={ <Commercial/> } />
         <Route path="/projects" element={ <Projectfolder/>} /> 
         </Routes>

@@ -50,28 +50,24 @@ function IndividualIntervalsExample() {
 
   return (
     <>
-
-      <div className="container-fluid bg-dahlia ">
+      <div className="container-fluid bg-bronze">
         <div className="row h-full flex justify-center items-center">
           <div
             id="carouselExampleIndicators"
             className="carousel slide"
             data-ride="carousel"
           >
-            <ol className="carousel-indicators">
+            <ol className="carousel-indicators custom-indicators">
               <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="0"
+                onClick={() => handleSlideChange(0)}
                 className={activeSlide === 0 ? "active" : ""}
               ></li>
               <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="1"
+                onClick={() => handleSlideChange(1)}
                 className={activeSlide === 1 ? "active" : ""}
               ></li>
               <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="2"
+                onClick={() => handleSlideChange(2)}
                 className={activeSlide === 2 ? "active" : ""}
               ></li>
             </ol>

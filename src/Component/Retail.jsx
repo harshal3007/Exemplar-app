@@ -1,20 +1,20 @@
 import React from "react";
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
-import project1 from "../Images/resi1.jpg";
-import project2 from "../Images/resi2.jpg";
-import project3 from "../Images/resi3.jpg";
-import project4 from "../Images/resi4.jpg";
-import project5 from "../Images/resi5.jpg";
-import project6 from "../Images/resi6.jpg";
-import project7 from "../Images/resi7.jpg";
-import project8 from "../Images/resi8.jpg";
-import project25 from "../Images/project25.webp"
-import project41 from "../Images/project41.webp";
-import project42 from "../Images/project42.webp";
-import project48 from "../Images/project48.webp";
+import project5 from "../Images/trends.jpeg";
+import project2 from "../Images/digital.png";
+import project3 from "../Images/trends3.png";
+import project4 from "../Images/trend5.jpeg";
+import project1 from "../Images/seven11.jpeg";
+import project6 from "../Images/trends8.jpeg";
+// import project7 from "../Images/resi7.jpg";
+// import project8 from "../Images/resi8.jpg";
+// import project25 from "../Images/project25.webp"
+// import project41 from "../Images/project41.webp";
+// import project42 from "../Images/project42.webp";
+// import project48 from "../Images/project48.webp";
 
-const Residential = () => {
+const Retail = () => {
   return (
     <div className="bg-bronze">
       <Navbar />
@@ -23,7 +23,7 @@ const Residential = () => {
           <div class=" flex items-center justify-center">
             <div class="items-center gap-12">
               <h2 class="text-2xl font-bold text-white lg:text-3xl dark:text-white mb-6 ml-10">
-                Residential Projects
+                Retail Projects
               </h2>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Residential = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
+      {/* <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
@@ -128,11 +128,11 @@ const Residential = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       
       <Footer />
     </div>
   );
 };
 
-export default Residential;
+export default Retail;

@@ -66,7 +66,7 @@ const Aboutsection = () => {
   }, []);
 
   return (
-    <div className="bg-dahlia ">
+    <div className="bg-bronze">
       <main className="isolate">
         <div className="relative isolate -z-10">
           <svg
@@ -114,10 +114,10 @@ const Aboutsection = () => {
             <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                  <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                  <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                     Creating Spaces, Inspiring Emotions
                   </h1>
-                  <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
+                  <p className="relative mt-6 text-lg leading-8 text-white sm:max-w-md lg:max-w-none">
                     Designing spaces inspired by emotions can lead to incredibly
                     unique and impactful environments. Being the fastest growing
                     interior turnkey solution provider of the country. We are
@@ -191,12 +191,12 @@ const Aboutsection = () => {
 
         <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Our mission
             </h2>
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
-                <p className="text-xl leading-8 text-gray-600">
+                <p className="text-xl leading-8 text-white">
                   Our mission is to seamlessly transform visions into realities,
                   providing comprehensive solutions that exceed expectations.
                   Through innovative design, meticulous planning, and flawless
@@ -206,7 +206,7 @@ const Aboutsection = () => {
                   choice for individuals and businesses seeking tailored,
                   turnkey solutions that inspire and endure.
                 </p>
-                <div className="mt-10 max-w-xl text-base leading-7 text-gray-700">
+                <div className="mt-10 max-w-xl text-base leading-7 text-white">
                   <p>
                     Contrary to the industry exepctation, we have a track record
                     of completing all projects on time, everytime, with 90% of
@@ -230,10 +230,10 @@ const Aboutsection = () => {
                       key={stat.label}
                       className="flex flex-col-reverse gap-y-4"
                     >
-                      <dt className="text-base leading-7 text-gray-600">
+                      <dt className="text-base leading-7 text-white">
                         {stat.label}
                       </dt>
-                      <dd className="text-5xl font-semibold tracking-tight text-baseorange">
+                      <dd className="text-5xl font-semibold tracking-tight text-white">
                         {stat.value}{" "}
                         {stat.label === "Years of cumulative experience" && "+"}{" "}
                         {stat.label === "Lakhs Square feet executed" && "+"}

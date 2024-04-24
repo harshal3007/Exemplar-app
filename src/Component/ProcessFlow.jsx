@@ -2,13 +2,13 @@ import processImg from "../Images/Process.webp"
 
 export default function Process() {
   return (
-    <div className="bg-dahlia">
+    <div className="bg-bronze">
       <div className="mx-auto mb-32 max-w-7xl px-6 sm:mt-40">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Project Process Flow
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-white">
             From the initial consultation sketch to the final stroke of
             execution, our project process is a captivating narrative, turning
             your aspirations into an aesthetically pleasing reality

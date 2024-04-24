@@ -31,14 +31,14 @@ export default function Projectfolder() {
     <>
       <Navbar />
 
-      <div className="bg-dahlia py-24 sm:py-32">
+      <div className="bg-bronze  py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-5xl  text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Our Recent Projects
             </h2>
 
-            <p class=" text-gray-500 dark:text-gray-300 text-pretty ">
+            <p class=" text-white dark:text-gray-300 text-pretty ">
               Below is a showcase of our most recent interior design triumphs.
               where every project is a testament to our commitment to
               innovation, functionality, and aesthetic excellence. Join us on
