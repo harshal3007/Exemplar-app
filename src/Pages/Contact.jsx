@@ -96,16 +96,16 @@ export default function Contact() {
                   />
                 </svg>
               </div>
-              <h2 className="text-3xl font-bold tracking-tight text-white">
+              <h2 className="text-3xl font-bold tracking-tight text-black">
                 Get in touch
               </h2>
-              <p className="mt-6 text-lg leading-8 text-white">
+              <p className="mt-6 text-lg leading-8 text-black">
                 Feel free to contact our team using the form or connect with us
                 through the provided email and phone number. We strive to
                 respond promptly and look forward to assisting you with any
                 questions, concerns, or collaboration opportunities.
               </p>
-              <dl className="mt-10 space-y-4 text-base leading-7 text-white">
+              <dl className="mt-10 space-y-4 text-base leading-7 text-black">
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
                     <span className="sr-only">Address</span>
@@ -130,7 +130,7 @@ export default function Contact() {
                   </dt>
                   <dd>
                     <a
-                      className="text-white no-underline"
+                      className="text-black no-underline"
                       href="tel: +91 9967698647"
                     >
                      +91 9405653521
@@ -147,7 +147,7 @@ export default function Contact() {
                   </dt>
                   <dd>
                     <a
-                      className="text-white no-underline"
+                      className="text-black no-underline"
                       href="mailto:hello@example.com"
                     >
                       team@exemplar.space

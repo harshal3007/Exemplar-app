@@ -9,7 +9,7 @@ const products = [
     imageSrc: product3,
     imageAlt: "product-1",
     imageDiscription:
-      "Exemplar has transformed 10,000 square feet workplace for Catalyst in Lower parel, Mumbai.",
+      "A 10,000 square feet area space designed & executed in a record time of Mumbai. Designed for comfort with a smooth transition & demarcation between leaders & executives along with recreation & pantry areas while ensuring luxury.",
   },
   {
     id: 2,

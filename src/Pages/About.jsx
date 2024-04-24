@@ -98,7 +98,7 @@ const About = () => {
                   {person.name}
                 </h3>
                 <p className="text-sm leading-6 text-white">{person.role}</p>
-                <ul className="mt-6 flex justify-center gap-x-6">
+                {/* <ul className="mt-6 flex justify-center gap-x-6">
                   <li>
                     <a
                       href={person.xUrl}
@@ -135,7 +135,7 @@ const About = () => {
                       </svg>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </li>
             ))}
           </ul>
