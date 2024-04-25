@@ -115,7 +115,7 @@ export default function Contact() {
                     />
                   </dt>
                   <dd>
-                  B105, Wework, Chromium, Powai, Mumbai, 400076
+                  5B105, Wework, Chromium, Powai, Mumbai, 400076
                     <br />
                    
                   </dd>

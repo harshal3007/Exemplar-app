@@ -58,7 +58,7 @@ export default function Footer() {
             <p className="text-sm leading-6 text-white">Reach out</p>
 
             <p className="text-sm leading-6 text-white">
-              B105, Wework, Chromium, Powai, Mumbai, 400076
+              5B105, Wework, Chromium, Powai, Mumbai, 400076
             </p>
             <p className="text-sm leading-6 text-white">
               team@exemplar.space <br /> +91 9405653521
