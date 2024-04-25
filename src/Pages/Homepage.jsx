@@ -12,7 +12,7 @@ const Homepage = () => {
        <Navbar />
       <IndividualIntervalsExample/>
       <Featured />
-      <Awards />
+      {/* <Awards /> */}
       <Logos />
       <Footer />
     </div>

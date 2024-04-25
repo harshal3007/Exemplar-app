@@ -4,7 +4,8 @@ import React, { useRef, useEffect, useState } from "react";
 import video1 from "../Video/JB brothers.mp4";
 import video2 from "../Video/CatalystWith CC.mp4";
 import video3 from "../Video/Nahur Video.mp4";
-import logo from "../Images/exempler-logo.png";
+import { LiaTrophySolid } from "react-icons/lia";
+import award from "../Images/award.png";
 
 function IndividualIntervalsExample() {
   const videoRefs = [useRef(null), useRef(null), useRef(null)];
@@ -52,6 +53,14 @@ function IndividualIntervalsExample() {
     <>
       <div className="container-fluid bg-bronze">
         <div className="row h-full flex justify-center items-center">
+          {/* ///////// */}
+          <div className="flex justify-center items-center pb-5">
+           
+
+            <img style={{width:"50%", height:"17vh"}} src={award} alt="" />
+          </div>
+
+          {/* /////////// */}
           <div
             id="carouselExampleIndicators"
             className="carousel slide"
