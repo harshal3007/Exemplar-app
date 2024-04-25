@@ -9,6 +9,8 @@ import project1 from "../Images/seven1.jpeg";
 import project11 from "../Images/seven2.jpeg";
 import project30 from "../Images/seven4.jpeg";
 import project6 from "../Images/trends8.jpeg";
+import washing from "../Images/washing.png";
+import reliance from "../Images/relianedigi.webp"
 
 
 const Retail = () => {
@@ -55,6 +57,20 @@ const Retail = () => {
                 alt="gallery"
                 class="block h-full w-full rounded-lg object-cover object-center"
                 src={project30}
+              />
+            </div>
+            <div class="w-full p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full rounded-lg object-cover object-center"
+                src={washing}
+              />
+            </div>
+            <div class="w-full p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full rounded-lg object-cover object-center"
+                src={reliance}
               />
             </div>
           </div>

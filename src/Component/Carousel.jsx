@@ -54,10 +54,10 @@ function IndividualIntervalsExample() {
       <div className="container-fluid bg-bronze">
         <div className="row h-full flex justify-center items-center">
           {/* ///////// */}
-          <div className="flex justify-center items-center pb-5">
+          <div className="flex justify-center items-center">
            
 
-            <img style={{width:"50%", height:"17vh"}} src={award} alt="" />
+            <img className="award-png" src={award} alt="" />
           </div>
 
           {/* /////////// */}
