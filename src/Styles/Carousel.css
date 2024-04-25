@@ -105,7 +105,8 @@
   .award-png {
     width: 50%;
     height: 17vh;
-    padding-bottom: "1.25rem";
+    margin-top: 2rem;
+    margin-bottom: 4rem;
   }
 }
 
