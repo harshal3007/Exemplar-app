@@ -51,7 +51,7 @@ function IndividualIntervalsExample() {
 
   return (
     <>
-      <div className="container-fluid bg-bronze">
+      <div className="container-fluid bg-bronze pb-8  ">
         <div className="row h-full flex justify-center items-center">
           {/* ///////// */}
           <div className="flex justify-center items-center">

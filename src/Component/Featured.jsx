@@ -31,7 +31,7 @@ const products = [
 
 export default function Featured() {
   return (
-    <div className="bg-bronze">
+    <div className="bg-bronze pt-16">
       <div className="mx-auto flex flex-col justify-center items-center max-w-7xl px-4 py-16 sm:px-6 sm:py-10 lg:px-8">
         <h1 className="text-4xl font-bold tracking-tight text-white">
           Featured Projects
