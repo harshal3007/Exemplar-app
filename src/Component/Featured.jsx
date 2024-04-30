@@ -9,7 +9,7 @@ const products = [
     imageSrc: product3,
     imageAlt: "product-1",
     imageDiscription:
-      "A 10,000 sqft area space designed & executed in a record time of Mumbai. Designed for comfort with a smooth transition & demarcation between leaders & executives along with recreation & pantry areas while ensuring luxury.",
+      "A 10,000 sqft area space designed and executed in a record time of 45 days in the heart of Mumbai. Designed for comfort with a smooth transition and demarcation between leaders and executives, along with recreation and pantry areas, while ensuring luxury.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const products = [
     imageSrc: product1,
     imageAlt: "product-2",
     imageDiscription:
-      "Gracefully executed a 1500 sqft co-working space in the marquee of Mumbai ONE BKC to build a space accomodating a whooping 350 seats while a spacious & elegant ambience makes for a perfectly collaborative office gheto.",
+      "Gracefully executed, a 1500 sqft co-working space in the marquee of Mumbai ONE BKC, to accommodate a whopping 350 seats while maintaining a spacious and elegant ambience, makes for a perfectly collaborative office setup.",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const products = [
     imageSrc: product2,
     imageAlt: "product-3",
     imageDiscription:
-      "A 7BHK penthouse designed & executed within two months to accomodate a minimilistic & elegant house for a family of dynamic inidividuals.",
+      "A 7BHK penthouse designed and executed within two months to accommodate a minimalist and elegant house for a family of dynamic individuals.",
   },
 ];
 
