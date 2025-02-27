@@ -5,14 +5,7 @@ import project1 from "../Images/resi1.jpg";
 import project2 from "../Images/resi2.jpg";
 import project3 from "../Images/resi3.jpg";
 import project4 from "../Images/resi4.jpg";
-import project5 from "../Images/resi5.jpg";
-import project6 from "../Images/resi6.jpg";
-import project7 from "../Images/resi7.jpg";
-import project8 from "../Images/resi8.jpg";
-import project25 from "../Images/project25.webp"
 import project41 from "../Images/project41.webp";
-import project42 from "../Images/project42.webp";
-import project48 from "../Images/project48.webp";
 
 const Residential = () => {
   return (
@@ -62,40 +55,12 @@ const Residential = () => {
                 src={project4}
               />
             </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project5}
-              />
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project6}
-              />
-            </div>
           </div>
         </div>
       </div>
       <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project25}
-              />
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project8}
-              />
-            </div>
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -104,32 +69,9 @@ const Residential = () => {
               />
             </div>
           </div>
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project42}
-              />
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project48}
-              />
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project7}
-              />
-            </div>
-          </div>
         </div>
       </div>
-      
+
       <Footer />
     </div>
   );
