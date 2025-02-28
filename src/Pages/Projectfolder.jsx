@@ -1,8 +1,8 @@
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
-import project1 from "../Images/resi4.jpg";
-import project2 from "../Images/project54.webp";
-import project3 from "../Images/project3.webp";
+import project1 from "../Images/resi2.jpg";
+import project2 from "../Images/project57.webp";
+import project3 from "../Images/seven4.jpeg";
 import { Link } from "react-router-dom";
 
 const posts = [

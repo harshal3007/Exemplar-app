@@ -22,42 +22,6 @@ const Residential = () => {
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-14">
-        <div class="-m-1 flex flex-wrap md:-m-2">
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project1}
-              />
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project2}
-              />
-            </div>
-            <div class="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project3}
-              />
-            </div>
-          </div>
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project4}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
@@ -65,7 +29,30 @@ const Residential = () => {
               <img
                 alt="gallery"
                 class="block h-full w-full rounded-lg object-cover object-center"
-                src={project41}
+                src={project1}
+              />
+            </div>
+          </div>
+          <div class="flex w-full md:w-1/2 flex-wrap">
+            <div class="w-full p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full rounded-lg object-cover object-center"
+                src={project2}
+              />
+            </div>
+            <div class="w-1/2 p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full rounded-lg object-cover object-center"
+                src={project3}
+              />
+            </div>
+            <div class="w-1/2 p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full rounded-lg object-cover object-center"
+                src={project4}
               />
             </div>
           </div>

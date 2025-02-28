@@ -38,20 +38,6 @@ const Commercial = () => {
       <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
         <div class="-m-1 flex flex-wrap md:-m-2">
           <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project55}
-              />
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project56}
-              />
-            </div>
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
