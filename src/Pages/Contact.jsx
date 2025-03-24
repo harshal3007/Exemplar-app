@@ -29,7 +29,7 @@ export default function Contact() {
       email: email,
       phone_number: number,
       to_name: "Exemplar Space",
-      company:company,
+      company: company,
       message: message,
     };
 
@@ -115,9 +115,9 @@ export default function Contact() {
                     />
                   </dt>
                   <dd>
-                  5B105, Wework, Chromium, Powai, Mumbai, 400076
+                    502, 5th Floor, Damji Shamji Building Above D Mart, LBS Marg
+                    Near Kanjur Marg station West Kanjur Marg west
                     <br />
-                   
                   </dd>
                 </div>
                 <div className="flex gap-x-4">
@@ -133,7 +133,7 @@ export default function Contact() {
                       className="text-black no-underline"
                       href="tel: +91 9967698647"
                     >
-                     +91 9405653521
+                      +91 9405653521
                     </a>
                   </dd>
                 </div>
@@ -254,7 +254,6 @@ export default function Contact() {
                       onChange={(e) => setCompany(e.target.value)}
                       name="company"
                       id="company"
-                     
                       className="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     />
                   </div>

@@ -21,11 +21,13 @@ const navigation = {
       name: "Linkdin",
       href: "https://www.linkedin.com/company/95679086/admin/feed/posts/",
       icon: (props) => (
-        <FaLinkedin style={{
-          color:"white",
-          height:"1.5rem",
-          width:"1.5rem"
-        }} />
+        <FaLinkedin
+          style={{
+            color: "white",
+            height: "1.5rem",
+            width: "1.5rem",
+          }}
+        />
       ),
     },
     {
@@ -58,7 +60,8 @@ export default function Footer() {
             <p className="text-sm leading-6 text-white">Reach out</p>
 
             <p className="text-sm leading-6 text-white">
-              5B105, Wework, Chromium, Powai, Mumbai, 400076
+              502, 5th Floor, Damji Shamji Building Above D Mart, LBS Marg Near
+              Kanjur Marg station West Kanjur Marg west
             </p>
             <p className="text-sm leading-6 text-white">
               team@exemplar.space <br /> +91 9405653521
