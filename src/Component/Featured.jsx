@@ -5,7 +5,7 @@ import product3 from "../Images/product3.jpg";
 const products = [
   {
     id: 1,
-    name: "Catalyst",
+    name: "Office Space Lower Parel, Mumbai",
     imageSrc: product3,
     imageAlt: "product-1",
     imageDiscription:
@@ -13,15 +13,15 @@ const products = [
   },
   {
     id: 2,
-    name: "JB Brothers",
+    name: "Coworking Space BKC, Mumbai",
     imageSrc: product1,
     imageAlt: "product-2",
     imageDiscription:
-      "Gracefully executed, a 1500 sqft co-working space in the marquee of Mumbai ONE BKC, to accommodate a whopping 350 seats while maintaining a spacious and elegant ambience, makes for a perfectly collaborative office setup.",
+      "Gracefully executed, a 12000 sqft co-working space in the marquee of Mumbai ONE BKC, to accommodate a whopping 350 seats while maintaining a spacious and elegant ambience, makes for a perfectly collaborative office setup.",
   },
   {
     id: 3,
-    name: "Nahur Residences",
+    name: "Residence, Mumbai",
     imageSrc: product2,
     imageAlt: "product-3",
     imageDiscription:

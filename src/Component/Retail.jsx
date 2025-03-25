@@ -9,9 +9,14 @@ import project1 from "../Images/seven1.jpeg";
 import project11 from "../Images/seven2.jpeg";
 import project30 from "../Images/seven4.jpeg";
 import project6 from "../Images/trends8.jpeg";
+import project12 from "../Images/IMG_0864.JPG";
+import project13 from "../Images/IMG_0868.JPG";
+import project14 from "../Images/IMG_0870.JPG";
+import project15 from "../Images/IMG_0873.JPG";
+import project16 from "../Images/IMG_0875.JPG";
+import project17 from "../Images/IMG_0881.JPG";
 import washing from "../Images/washing.png";
-import reliance from "../Images/relianedigi.webp"
-
+import reliance from "../Images/relianedigi.webp";
 
 const Retail = () => {
   return (
@@ -24,6 +29,56 @@ const Retail = () => {
               <h2 class="text-2xl font-bold text-white lg:text-3xl dark:text-white mb-6 ml-10">
                 Retail Projects
               </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
+        <div class="-m-1 flex flex-wrap md:-m-2">
+          <div class="flex w-full md:w-1/2 flex-wrap">
+            <div class="w-1/2 p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full rounded-lg object-cover object-center"
+                src={project12}
+              />
+            </div>
+            <div class="w-1/2 p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full rounded-lg object-cover object-center"
+                src={project13}
+              />
+            </div>
+            <div class="w-full p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full rounded-lg object-cover object-center"
+                src={project14}
+              />
+            </div>
+          </div>
+          <div class="flex w-full md:w-1/2 flex-wrap">
+            <div class="w-full p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full rounded-lg object-cover object-center"
+                src={project15}
+              />
+            </div>
+            <div class="w-1/2 p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full rounded-lg object-cover object-center"
+                src={project16}
+              />
+            </div>
+            <div class="w-1/2 p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full rounded-lg object-cover object-center"
+                src={project17}
+              />
             </div>
           </div>
         </div>
@@ -82,7 +137,7 @@ const Retail = () => {
                 src={project4}
               />
             </div>
-  
+
             <div class="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
@@ -107,57 +162,6 @@ const Retail = () => {
           </div>
         </div>
       </div>
-      {/* <div class="container mx-auto px-5 py-2 lg:px-24 lg:pt-2">
-        <div class="-m-1 flex flex-wrap md:-m-2">
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project25}
-              />
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project8}
-              />
-            </div>
-            <div class="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project41}
-              />
-            </div>
-          </div>
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project42}
-              />
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project48}
-              />
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src={project7}
-              />
-            </div>
-          </div>
-        </div>
-      </div> */}
-      
       <Footer />
     </div>
   );
