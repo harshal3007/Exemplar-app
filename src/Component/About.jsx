@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
-import about1 from "../Images/about 1.webp";
-import about2 from "../Images/about 2.png";
-import about3 from "../Images/about3.webp";
-import about4 from "../Images/about 4.webp";
+import about1 from "../Images/project43.webp";
+import about2 from "../Images/01.jpg";
+import about3 from "../Images/project34.webp";
+import about4 from "../Images/project46.webp";
 import about5 from "../Images/about 5.webp";
 
 const Aboutsection = () => {

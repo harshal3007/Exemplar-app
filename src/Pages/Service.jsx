@@ -1,11 +1,11 @@
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
-import project1 from "../Images/project1.webp";
-import project2 from "../Images/project2.webp";
-import project3 from "../Images/project3.webp";
-import project4 from "../Images/project48.webp";
-import project13 from "../Images/project13.webp";
-import project12 from "../Images/project12.webp";
+import project1 from "../Images/IMG_1003.JPG";
+import project2 from "../Images/01.jpg";
+import project3 from "../Images/02.jpg-1.jpg";
+import project4 from "../Images/project59.webp";
+import project13 from "../Images/IMG_0997.JPG";
+import project12 from "../Images/project43.webp";
 
 const people = [
   {
@@ -21,22 +21,22 @@ const people = [
   {
     name: "Full Office Interiors",
     imageUrl: project13,
-   bio:"Embark on a seamless journey with our comprehensive office interiors service, providing end-to-end solutions for your workspace. From concept to completion, we manage every detail, including in-house MEP consultation, integrating the art of design with technical expertise. Our collaborative approach ensures optimal performance, energy efficiency, and compliance with regulations, seamlessly blending MEP systems into the overall design. Whether for small offices or corporate headquarters, our expertise caters to projects of any scale. Experience the efficiency of our full office interiors service, from space planning to MEP system integration, elevating your office environment with functionality, aesthetics, and top-notch performance. Whether it's lighting design, HVAC systems, power distribution, or plumbing layouts, we leverage our knowledge and experience to create solutions enhancing the functionality, comfort, and safety of your office environment.",
+    bio: "Embark on a seamless journey with our comprehensive office interiors service, providing end-to-end solutions for your workspace. From concept to completion, we manage every detail, including in-house MEP consultation, integrating the art of design with technical expertise. Our collaborative approach ensures optimal performance, energy efficiency, and compliance with regulations, seamlessly blending MEP systems into the overall design. Whether for small offices or corporate headquarters, our expertise caters to projects of any scale. Experience the efficiency of our full office interiors service, from space planning to MEP system integration, elevating your office environment with functionality, aesthetics, and top-notch performance. Whether it's lighting design, HVAC systems, power distribution, or plumbing layouts, we leverage our knowledge and experience to create solutions enhancing the functionality, comfort, and safety of your office environment.",
   },
   {
     name: "Turnkey Solutions",
     imageUrl: project3,
-    bio:"Experience excellence with our turnkey solutions, specializing in office spaces, residential interiors, and F&B establishments. Meticulously crafted to the highest standards of quality and functionality, our comprehensive services ensure a seamless project delivery. For office spaces, our tailored solutions cater to businesses of all sizes, creating modern, open-plan or traditional settings. From conceptualization to installation, we handle every aspect, allowing you to focus on your core activities. Our talented designers collaborate with you, managing every detail from concept to decoration, making your dream home a reality. In the competitive F&B industry, our turnkey solutions cover design and construction, ensuring captivating spaces that harmonize aesthetics with functionality. From kitchen layout to lighting design, we meticulously plan and execute every element to set your establishment apart."
+    bio: "Experience excellence with our turnkey solutions, specializing in office spaces, residential interiors, and F&B establishments. Meticulously crafted to the highest standards of quality and functionality, our comprehensive services ensure a seamless project delivery. For office spaces, our tailored solutions cater to businesses of all sizes, creating modern, open-plan or traditional settings. From conceptualization to installation, we handle every aspect, allowing you to focus on your core activities. Our talented designers collaborate with you, managing every detail from concept to decoration, making your dream home a reality. In the competitive F&B industry, our turnkey solutions cover design and construction, ensuring captivating spaces that harmonize aesthetics with functionality. From kitchen layout to lighting design, we meticulously plan and execute every element to set your establishment apart.",
   },
   {
     name: "Design Build",
     imageUrl: project4,
-   bio:"Experience excellence with our Design-Build Interiors service at Exemplar, seamlessly integrating design and construction for residential, office, retail, or hospitality spaces. Our skilled team handles every aspect, from initial design to final construction and installation. Collaborating closely with you, we develop a comprehensive concept that considers functional requirements, ambiance, branding, and specific design elements. Our streamlined process ensures open communication, real-time adjustments, and efficient timelines, reducing delays and improving cost control. At Exemplar, we're committed to delivering exceptional Design-Build Interiors that transform spaces into captivating and functional environments. Contact us today to bring your vision to life with our seamless approach.",
+    bio: "Experience excellence with our Design-Build Interiors service at Exemplar, seamlessly integrating design and construction for residential, office, retail, or hospitality spaces. Our skilled team handles every aspect, from initial design to final construction and installation. Collaborating closely with you, we develop a comprehensive concept that considers functional requirements, ambiance, branding, and specific design elements. Our streamlined process ensures open communication, real-time adjustments, and efficient timelines, reducing delays and improving cost control. At Exemplar, we're committed to delivering exceptional Design-Build Interiors that transform spaces into captivating and functional environments. Contact us today to bring your vision to life with our seamless approach.",
   },
   {
     name: "Outsourced Design",
     imageUrl: project12,
-   bio:"Experience professional design expertise without the need for an in-house team through our Outsource Design as a Service at Exemplar. Our skilled designers, versed in various disciplines, ensure customized solutions, whether for ongoing support, one-time projects, or specific tasks. Despite being outsourced, we prioritize effective communication and collaboration, utilizing tools for seamless interactions. Rigorous quality control measures guarantee high design excellence, and scalability options allow flexibility based on your needs. Benefit from a diverse pool of talent, cost savings, and efficient project management by outsourcing your design needs to us. Contact us today to discuss how our service can enhance your organization with exceptional design solutions tailored to your unique requirements.",
+    bio: "Experience professional design expertise without the need for an in-house team through our Outsource Design as a Service at Exemplar. Our skilled designers, versed in various disciplines, ensure customized solutions, whether for ongoing support, one-time projects, or specific tasks. Despite being outsourced, we prioritize effective communication and collaboration, utilizing tools for seamless interactions. Rigorous quality control measures guarantee high design excellence, and scalability options allow flexibility based on your needs. Benefit from a diverse pool of talent, cost savings, and efficient project management by outsourcing your design needs to us. Contact us today to discuss how our service can enhance your organization with exceptional design solutions tailored to your unique requirements.",
   },
 ];
 
@@ -71,9 +71,7 @@ export default function Service() {
                 <h3 className="mt-6 text-lg font-semibold leading-8 text-white">
                   {person.name}
                 </h3>
-                <p className="text-base leading-7 text-white">
-                  {person.role}
-                </p>
+                <p className="text-base leading-7 text-white">{person.role}</p>
                 <p className="mt-4 text-base leading-7 text-white text-justify">
                   {person.bio}
                 </p>
