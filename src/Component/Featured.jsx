@@ -55,6 +55,9 @@ export default function Featured() {
               </div>
             ))}
           </div>
+          <div>
+            <h1>video section</h1>
+          </div>
         </div>
       </div>
     </div>
