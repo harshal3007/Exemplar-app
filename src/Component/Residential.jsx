@@ -7,6 +7,7 @@ import project3 from "../Images/resi3.jpg";
 import project4 from "../Images/resi4.jpg";
 import project41 from "../Images/project41.webp";
 
+
 const Residential = () => {
   return (
     <div className="bg-bronze">
@@ -55,8 +56,15 @@ const Residential = () => {
                 src={project4}
               />
             </div>
+           
+       
           </div>
+         
+
         </div>
+         <div className="w-1/2 p-1 md:p-2">
+ 
+</div>
       </div>
 
       <Footer />

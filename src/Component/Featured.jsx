@@ -1,6 +1,7 @@
 import product1 from "../Images/project57.webp";
 import product2 from "../Images/product2.jpg";
 import product3 from "../Images/product3.jpg";
+import video4 from "../Video/video.mp4";
 
 const products = [
   {
@@ -64,6 +65,20 @@ export default function Featured() {
               </div>
             ))}
           </div>
+      <div className="w-full mt-6">
+  <video 
+    src={video4}
+    autoPlay
+    loop
+    muted 
+    controls 
+    className="w-full h-auto object-cover rounded-lg"
+  >
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
         </div>
       </div>
     </div>
